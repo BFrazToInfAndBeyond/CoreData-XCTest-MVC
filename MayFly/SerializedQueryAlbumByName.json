@@ -1,0 +1,144 @@
+
+{
+    albums =     {
+        href = "https://api.spotify.com/v1/search?query=true&offset=0&limit=20&type=album";
+        items =         (
+                         {
+                         "album_type" = album;
+                         "available_markets" =                 (
+                                                                AD,
+                                                                AR,
+                                                                AT,
+                                                                AU,
+                                                                BE,
+                                                                BG,
+                                                                BO,
+                                                                BR,
+                                                                CH,
+                                                                CL,
+                                                                CO,
+                                                                CR,
+                                                                CY,
+                                                                CZ,
+                                                                DE,
+                                                                DK,
+                                                                DO,
+                                                                EC,
+                                                                EE,
+                                                                ES,
+                                                                FI,
+                                                                FR,
+                                                                GB,
+                                                                GR,
+                                                                GT,
+                                                                HK,
+                                                                HN,
+                                                                HU,
+                                                                IE,
+                                                                IS,
+                                                                IT,
+                                                                LI,
+                                                                LT,
+                                                                LU,
+                                                                LV,
+                                                                MC,
+                                                                MT,
+                                                                MY,
+                                                                NI,
+                                                                NL,
+                                                                NO,
+                                                                NZ,
+                                                                PA,
+                                                                PE,
+                                                                PH,
+                                                                PL,
+                                                                PT,
+                                                                PY,
+                                                                RO,
+                                                                SE,
+                                                                SG,
+                                                                SI,
+                                                                SK,
+                                                                SV,
+                                                                TR,
+                                                                TW,
+                                                                UY
+                                                                );
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/album/02h9kO2oLKnLtycgbElKsw";
+                         };
+                         href = "https://api.spotify.com/v1/albums/02h9kO2oLKnLtycgbElKsw";
+                         id = 02h9kO2oLKnLtycgbElKsw;
+                         images =                 (
+                                                   {
+                                                   height = 640;
+                                                   url = "https://i.scdn.co/image/a2691d83006245d8aa072041f88302820ff0650c";
+                                                   width = 640;
+                                                   },
+                                                   {
+                                                   height = 300;
+                                                   url = "https://i.scdn.co/image/0348f700446e044515b6c73a70252627b2ea362f";
+                                                   width = 300;
+                                                   },
+                                                   {
+                                                   height = 64;
+                                                   url = "https://i.scdn.co/image/4a9fa8ef0fc75885e511d97648b471002437eda2";
+                                                   width = 64;
+                                                   }
+                                                   );
+                         name = True;
+                         type = album;
+                         uri = "spotify:album:02h9kO2oLKnLtycgbElKsw";
+                         },
+                         {
+                         "album_type" = album;
+                         "available_markets" =                 (
+                                                                AD,
+                                                                AT,
+                                                                AU,
+                                                                CH,
+                                                                GB,
+                                                                HK,
+                                                                IE,
+                                                                LI,
+                                                                MC,
+                                                                MY,
+                                                                NL,
+                                                                PH,
+                                                                SE,
+                                                                TW
+                                                                );
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/album/5odU0U2oqgd75UJKX6XXEc";
+                         };
+                         href = "https://api.spotify.com/v1/albums/5odU0U2oqgd75UJKX6XXEc";
+                         id = 5odU0U2oqgd75UJKX6XXEc;
+                         images =                 (
+                                                   {
+                                                   height = 562;
+                                                   url = "https://i.scdn.co/image/047b9cd17993c58a647f6c4d7ccee4e8f85f1ae7";
+                                                   width = 640;
+                                                   },
+                                                   {
+                                                   height = 263;
+                                                   url = "https://i.scdn.co/image/e649d3705c2314aef6713220d0daa8e61e04adaf";
+                                                   width = 300;
+                                                   },
+                                                   {
+                                                   height = 56;
+                                                   url = "https://i.scdn.co/image/d35b39da1b3d1271ca5b16a41f7a883f09278f1f";
+                                                   width = 64;
+                                                   }
+                                                   );
+                         name = "True 90s (3 CD Set)";
+                         type = album;
+                         uri = "spotify:album:5odU0U2oqgd75UJKX6XXEc";
+                         }
+                         );
+        limit = 20;
+        next = "https://api.spotify.com/v1/search?query=true&offset=20&limit=20&type=album";
+        offset = 0;
+        previous = "<null>";
+        total = 5133;
+    };
+}

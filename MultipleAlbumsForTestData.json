@@ -1,0 +1,517 @@
+{
+    "albums" : [ {
+                "album_type" : "single",
+                "artists" : [ {
+                             "external_urls" : {
+                             "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                             },
+                             "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                             "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                             "name" : "A*Teens",
+                             "type" : "artist",
+                             "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                             } ],
+                "available_markets" : [ "US" ],
+                "copyrights" : [ {
+                                "text" : "(C) 2001 Universal Music AB under exclusive license to MCA Records",
+                                "type" : "C"
+                                }, {
+                                "text" : "(P) 2001 Universal Music AB under exclusive license to MCA Records",
+                                "type" : "P"
+                                } ],
+                "external_ids" : {
+                "upc" : "00044001536724"
+                },
+                "external_urls" : {
+                "spotify" : "https://open.spotify.com/album/7l6PASzlR4Nc17k5bT0Zgf"
+                },
+                "genres" : [ ],
+                "href" : "https://api.spotify.com/v1/albums/7l6PASzlR4Nc17k5bT0Zgf",
+                "id" : "7l6PASzlR4Nc17k5bT0Zgf",
+                "images" : [ {
+                            "height" : 635,
+                            "url" : "https://i.scdn.co/image/6ca0502ee509b05bc8dd55159045add4d7862f93",
+                            "width" : 640
+                            }, {
+                            "height" : 298,
+                            "url" : "https://i.scdn.co/image/1f5b6c14fa41fe5ea69b1ca36e97d13c78fa811e",
+                            "width" : 300
+                            }, {
+                            "height" : 64,
+                            "url" : "https://i.scdn.co/image/5c7d2acccd2e5d5d3fd9d511be58a2e9286c5cdf",
+                            "width" : 64
+                            } ],
+                "name" : "...To The Music",
+                "popularity" : 14,
+                "release_date" : "2001-10-16",
+                "release_date_precision" : "day",
+                "tracks" : {
+                "href" : "https://api.spotify.com/v1/albums/7l6PASzlR4Nc17k5bT0Zgf/tracks?offset=0&limit=50",
+                "items" : [ {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "US" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 195826,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/6deisQxDFJTqXqmIwZIy9E"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/6deisQxDFJTqXqmIwZIy9E",
+                           "id" : "6deisQxDFJTqXqmIwZIy9E",
+                           "name" : "Upside Down",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/8fd464b88125dd7c29df6d9f472abb9a15602b94",
+                           "track_number" : 1,
+                           "type" : "track",
+                           "uri" : "spotify:track:6deisQxDFJTqXqmIwZIy9E"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "US" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 396240,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/0tIu2TuzLpp2ccxzs6xzCH"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/0tIu2TuzLpp2ccxzs6xzCH",
+                           "id" : "0tIu2TuzLpp2ccxzs6xzCH",
+                           "name" : "Bouncing Off The Ceiling (Upside Down) - JS Remix",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/1492ed7e30c3d5a85a1aa5eb86dd7ebf48edaf1f",
+                           "track_number" : 2,
+                           "type" : "track",
+                           "uri" : "spotify:track:0tIu2TuzLpp2ccxzs6xzCH"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "US" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 201093,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/7mq0yGoj6YCmtyZcYEiLCf"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/7mq0yGoj6YCmtyZcYEiLCf",
+                           "id" : "7mq0yGoj6YCmtyZcYEiLCf",
+                           "name" : "...To The Music",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/0bb4453443b6455024a3ed4a9255b8d5af73c133",
+                           "track_number" : 3,
+                           "type" : "track",
+                           "uri" : "spotify:track:7mq0yGoj6YCmtyZcYEiLCf"
+                           } ],
+                "limit" : 50,
+                "next" : null,
+                "offset" : 0,
+                "previous" : null,
+                "total" : 3
+                },
+                "type" : "album",
+                "uri" : "spotify:album:7l6PASzlR4Nc17k5bT0Zgf"
+                }, {
+                "album_type" : "album",
+                "artists" : [ {
+                             "external_urls" : {
+                             "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                             },
+                             "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                             "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                             "name" : "A*Teens",
+                             "type" : "artist",
+                             "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                             } ],
+                "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                "copyrights" : [ {
+                                "text" : "(C) 2001 Universal Music AB",
+                                "type" : "C"
+                                }, {
+                                "text" : "(P) 2001 Universal Music AB",
+                                "type" : "P"
+                                } ],
+                "external_ids" : {
+                "upc" : "00044001340123"
+                },
+                "external_urls" : {
+                "spotify" : "https://open.spotify.com/album/2nfJndJmf2CNYtt4cmUtJt"
+                },
+                "genres" : [ ],
+                "href" : "https://api.spotify.com/v1/albums/2nfJndJmf2CNYtt4cmUtJt",
+                "id" : "2nfJndJmf2CNYtt4cmUtJt",
+                "images" : [ {
+                            "height" : 634,
+                            "url" : "https://i.scdn.co/image/15d50498405efa582ad16cd769e768c394772fcc",
+                            "width" : 640
+                            }, {
+                            "height" : 297,
+                            "url" : "https://i.scdn.co/image/ea032f70d78c65c53fbd0af0ca7647b34a410a79",
+                            "width" : 300
+                            }, {
+                            "height" : 63,
+                            "url" : "https://i.scdn.co/image/172676ede23c2916839fc2763905838cc3dad8f4",
+                            "width" : 64
+                            } ],
+                "name" : "Teen Spirit",
+                "popularity" : 36,
+                "release_date" : "2001",
+                "release_date_precision" : "year",
+                "tracks" : {
+                "href" : "https://api.spotify.com/v1/albums/2nfJndJmf2CNYtt4cmUtJt/tracks?offset=0&limit=50",
+                "items" : [ {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 198093,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/1I6RszJaDN0xmtn4NBXtIP"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/1I6RszJaDN0xmtn4NBXtIP",
+                           "id" : "1I6RszJaDN0xmtn4NBXtIP",
+                           "name" : "Upside Down",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/56880da31774afa22756790890ba4c67d851272d",
+                           "track_number" : 1,
+                           "type" : "track",
+                           "uri" : "spotify:track:1I6RszJaDN0xmtn4NBXtIP"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 202600,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/7wbq9AjyvSoyecIL9FQKvY"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/7wbq9AjyvSoyecIL9FQKvY",
+                           "id" : "7wbq9AjyvSoyecIL9FQKvY",
+                           "name" : "...To The Music",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/4c40d72a539a1faf4d0cdebb1c8476a3b7060042",
+                           "track_number" : 2,
+                           "type" : "track",
+                           "uri" : "spotify:track:7wbq9AjyvSoyecIL9FQKvY"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 219960,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/4e12xK8HU2ue5FmKTFZujb"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/4e12xK8HU2ue5FmKTFZujb",
+                           "id" : "4e12xK8HU2ue5FmKTFZujb",
+                           "name" : "Halfway Around The World",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/74482343dca7fa96e677efd5c2f267cc3913f1ae",
+                           "track_number" : 3,
+                           "type" : "track",
+                           "uri" : "spotify:track:4e12xK8HU2ue5FmKTFZujb"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 188266,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/2OubzOwxieERf7tQPLj8ED"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/2OubzOwxieERf7tQPLj8ED",
+                           "id" : "2OubzOwxieERf7tQPLj8ED",
+                           "name" : "Firefly",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/a255865ee9815110fd7634076ffdf960cb3d35cf",
+                           "track_number" : 4,
+                           "type" : "track",
+                           "uri" : "spotify:track:2OubzOwxieERf7tQPLj8ED"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 183266,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/4nTZFfLpmtpaOJ6sjb7kaF"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/4nTZFfLpmtpaOJ6sjb7kaF",
+                           "id" : "4nTZFfLpmtpaOJ6sjb7kaF",
+                           "name" : "Sugar Rush",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/f4fb00cafe9c657a7fee10413c757e262058c708",
+                           "track_number" : 5,
+                           "type" : "track",
+                           "uri" : "spotify:track:4nTZFfLpmtpaOJ6sjb7kaF"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 207173,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/6mDiAXdw0oyGxUy8fGd643"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/6mDiAXdw0oyGxUy8fGd643",
+                           "id" : "6mDiAXdw0oyGxUy8fGd643",
+                           "name" : "Rockin'",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/93534083d248db60bdff0dd4079afad979be8ffc",
+                           "track_number" : 6,
+                           "type" : "track",
+                           "uri" : "spotify:track:6mDiAXdw0oyGxUy8fGd643"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 252933,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/5Y1Pxw3NHfSRXYnHYYvfaT"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/5Y1Pxw3NHfSRXYnHYYvfaT",
+                           "id" : "5Y1Pxw3NHfSRXYnHYYvfaT",
+                           "name" : "Around The Corner Of Your Eye",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/f943ad257280afb3c56c5d4d383085d8cc5bb406",
+                           "track_number" : 7,
+                           "type" : "track",
+                           "uri" : "spotify:track:5Y1Pxw3NHfSRXYnHYYvfaT"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 184226,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/0LOxUNAZIc3eYOURVxYUIl"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/0LOxUNAZIc3eYOURVxYUIl",
+                           "id" : "0LOxUNAZIc3eYOURVxYUIl",
+                           "name" : "Slammin' Kinda Love",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/06ce55d5e83ecb508fd3ee0f3804ec5bde7ee2bb",
+                           "track_number" : 8,
+                           "type" : "track",
+                           "uri" : "spotify:track:0LOxUNAZIc3eYOURVxYUIl"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 196200,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/1r50rAcpAt0hMYmT2u57qw"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/1r50rAcpAt0hMYmT2u57qw",
+                           "id" : "1r50rAcpAt0hMYmT2u57qw",
+                           "name" : "All My Love",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/68a8e8c6bfe94b8afa2d76d1cc78f7f919bf690c",
+                           "track_number" : 9,
+                           "type" : "track",
+                           "uri" : "spotify:track:1r50rAcpAt0hMYmT2u57qw"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 198720,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/71XU70fsvhBxEzNglC807A"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/71XU70fsvhBxEzNglC807A",
+                           "id" : "71XU70fsvhBxEzNglC807A",
+                           "name" : "For All That I Am",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/22cc6e58a78b80574d8c65fca67938c05f10cf52",
+                           "track_number" : 10,
+                           "type" : "track",
+                           "uri" : "spotify:track:71XU70fsvhBxEzNglC807A"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 196253,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/1JPgJHenDNX5MMylEkl9Hg"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/1JPgJHenDNX5MMylEkl9Hg",
+                           "id" : "1JPgJHenDNX5MMylEkl9Hg",
+                           "name" : "That's What (It's All About)",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/d2a2081994ed754bfc149bf70bfaaab4a1836397",
+                           "track_number" : 11,
+                           "type" : "track",
+                           "uri" : "spotify:track:1JPgJHenDNX5MMylEkl9Hg"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 189720,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/36URtzxJoCRGgNbHihB6cm"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/36URtzxJoCRGgNbHihB6cm",
+                           "id" : "36URtzxJoCRGgNbHihB6cm",
+                           "name" : "Morning Light",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/e486e7141b910a62521728ab7ea5c50296932515",
+                           "track_number" : 12,
+                           "type" : "track",
+                           "uri" : "spotify:track:36URtzxJoCRGgNbHihB6cm"
+                           }, {
+                           "artists" : [ {
+                                        "external_urls" : {
+                                        "spotify" : "https://open.spotify.com/artist/5zMgvYBz4AW0gFyPtg7fR9"
+                                        },
+                                        "href" : "https://api.spotify.com/v1/artists/5zMgvYBz4AW0gFyPtg7fR9",
+                                        "id" : "5zMgvYBz4AW0gFyPtg7fR9",
+                                        "name" : "A*Teens",
+                                        "type" : "artist",
+                                        "uri" : "spotify:artist:5zMgvYBz4AW0gFyPtg7fR9"
+                                        } ],
+                           "available_markets" : [ "AT", "BR", "CH", "DE", "DK", "EE", "ES", "FI", "GR", "LT", "LV", "NO", "PH", "PL", "PT", "SE" ],
+                           "disc_number" : 1,
+                           "duration_ms" : 194000,
+                           "explicit" : false,
+                           "external_urls" : {
+                           "spotify" : "https://open.spotify.com/track/0wH05dVzwJk9kvzfRvPhcv"
+                           },
+                           "href" : "https://api.spotify.com/v1/tracks/0wH05dVzwJk9kvzfRvPhcv",
+                           "id" : "0wH05dVzwJk9kvzfRvPhcv",
+                           "name" : "Back For More",
+                           "preview_url" : "https://p.scdn.co/mp3-preview/0b3452325cf8b719352e8468d782cc99acbd5bee",
+                           "track_number" : 13,
+                           "type" : "track",
+                           "uri" : "spotify:track:0wH05dVzwJk9kvzfRvPhcv"
+                           } ],
+                "limit" : 50,
+                "next" : null,
+                "offset" : 0,
+                "previous" : null,
+                "total" : 13
+                },
+                "type" : "album",
+                "uri" : "spotify:album:2nfJndJmf2CNYtt4cmUtJt"
+                } ]
+}

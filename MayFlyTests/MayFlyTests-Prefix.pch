@@ -1,0 +1,18 @@
+
+#ifdef __OBJC__
+
+//#import "../MayFly/MayFly-Prefix.pch"
+#import "../MayFly/MayFly-Prefix.pch"
+
+#import <Foundation/Foundation.h>
+#import <XCTest/XCTest.h>
+// #import <OCMock/OCMock.h>
+#import <OHHTTPStubs/OHHTTPStubs.h>
+
+#import "MFTestUtilities.h"
+#import "XCTestCase+ASYAsynchronousTesting.h"
+#import "ASYMacros.h"
+
+#import "Stubble/Stubble.h"
+
+#endif

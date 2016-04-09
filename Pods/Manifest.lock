@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.2.1):
+    - AFNetworking/NSURLConnection (= 2.2.1)
+    - AFNetworking/NSURLSession (= 2.2.1)
+    - AFNetworking/Reachability (= 2.2.1)
+    - AFNetworking/Security (= 2.2.1)
+    - AFNetworking/Serialization (= 2.2.1)
+    - AFNetworking/UIKit (= 2.2.1)
+  - AFNetworking/NSURLConnection (2.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.1):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.1)
+  - AFNetworking/Security (2.2.1)
+  - AFNetworking/Serialization (2.2.1)
+  - AFNetworking/UIKit (2.2.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ESCObservable (1.0.2)
+  - MBProgressHUD (0.9)
+  - OCMock (3.1.1)
+  - OHHTTPStubs (3.1.8):
+    - OHHTTPStubs/Core (= 3.1.8)
+  - OHHTTPStubs/Core (3.1.8)
+  - SSKeychain (1.2.2)
+  - Underscore.m (0.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.2.1)
+  - ESCObservable
+  - MBProgressHUD
+  - OCMock
+  - OHHTTPStubs
+  - SSKeychain
+  - Underscore.m
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dde8c8a6597ad95dac332a593c27e541bc87371
+  ESCObservable: fd0762dff2a60bbeaccea54b733fc67965124b8a
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
+  OHHTTPStubs: 2e25ea33e4163e5c458fe600d9ed412a85b2aeaf
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+  Underscore.m: f99c166a9fdccfb5069085b6b4263c04b817fc9f
+
+COCOAPODS: 0.35.0

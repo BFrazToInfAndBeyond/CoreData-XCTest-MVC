@@ -1,0 +1,372 @@
+{
+    tracks =     {
+        href = "https://api.spotify.com/v1/search?query=tru&offset=0&limit=20&type=track";
+        items =         (
+                         {
+                         album =                 {
+                         "album_type" = album;
+                         "available_markets" =                     (
+                                                                    AD,
+                                                                    AR,
+                                                                    AT,
+                                                                    AU,
+                                                                    BE,
+                                                                    BG,
+                                                                    BO,
+                                                                    BR,
+                                                                    CH,
+                                                                    CL,
+                                                                    CO,
+                                                                    CR,
+                                                                    CY,
+                                                                    CZ,
+                                                                    DE,
+                                                                    DK,
+                                                                    DO,
+                                                                    EC,
+                                                                    EE,
+                                                                    ES,
+                                                                    FI,
+                                                                    FR,
+                                                                    GB,
+                                                                    GR,
+                                                                    GT,
+                                                                    HK,
+                                                                    HN,
+                                                                    HU,
+                                                                    IE,
+                                                                    IS,
+                                                                    IT,
+                                                                    LI,
+                                                                    LT,
+                                                                    LU,
+                                                                    LV,
+                                                                    MC,
+                                                                    MT,
+                                                                    MY,
+                                                                    NI,
+                                                                    NL,
+                                                                    NO,
+                                                                    NZ,
+                                                                    PA,
+                                                                    PE,
+                                                                    PH,
+                                                                    PL,
+                                                                    PT,
+                                                                    PY,
+                                                                    RO,
+                                                                    SE,
+                                                                    SG,
+                                                                    SI,
+                                                                    SK,
+                                                                    SV,
+                                                                    TR,
+                                                                    TW
+                                                                    );
+                         "external_urls" =                     {
+                         spotify = "https://open.spotify.com/album/3p6wrYqeSr2KPNzJpxNWSc";
+                         };
+                         href = "https://api.spotify.com/v1/albums/3p6wrYqeSr2KPNzJpxNWSc";
+                         id = 3p6wrYqeSr2KPNzJpxNWSc;
+                         images =                     (
+                                                       {
+                                                       height = 640;
+                                                       url = "https://i.scdn.co/image/ef05b97985627bbdf11ea3b84e5c4fa0017ec69e";
+                                                       width = 640;
+                                                       },
+                                                       {
+                                                       height = 300;
+                                                       url = "https://i.scdn.co/image/d188abbdc4ed7ff06cbc1431b471091f21b61919";
+                                                       width = 300;
+                                                       },
+                                                       {
+                                                       height = 64;
+                                                       url = "https://i.scdn.co/image/b22d5cb9dfe80203ce142c806469abcca8f158e8";
+                                                       width = 64;
+                                                       }
+                                                       );
+                         name = "Based On A T.R.U. Story";
+                         type = album;
+                         uri = "spotify:album:3p6wrYqeSr2KPNzJpxNWSc";
+                         };
+                         artists =                 (
+                                                    {
+                                                    "external_urls" =                         {
+                                                    spotify = "https://open.spotify.com/artist/17lzZA2AlOHwCwFALHttmp";
+                                                    };
+                                                    href = "https://api.spotify.com/v1/artists/17lzZA2AlOHwCwFALHttmp";
+                                                    id = 17lzZA2AlOHwCwFALHttmp;
+                                                    name = "2 Chainz";
+                                                    type = artist;
+                                                    uri = "spotify:artist:17lzZA2AlOHwCwFALHttmp";
+                                                    }
+                                                    );
+                         "available_markets" =                 (
+                                                                AD,
+                                                                AR,
+                                                                AT,
+                                                                AU,
+                                                                BE,
+                                                                BG,
+                                                                BO,
+                                                                BR,
+                                                                CH,
+                                                                CL,
+                                                                CO,
+                                                                CR,
+                                                                CY,
+                                                                CZ,
+                                                                DE,
+                                                                DK,
+                                                                DO,
+                                                                EC,
+                                                                EE,
+                                                                ES,
+                                                                FI,
+                                                                FR,
+                                                                GB,
+                                                                GR,
+                                                                GT,
+                                                                HK,
+                                                                HN,
+                                                                HU,
+                                                                IE,
+                                                                IS,
+                                                                IT,
+                                                                LI,
+                                                                LT,
+                                                                LU,
+                                                                LV,
+                                                                MC,
+                                                                MT,
+                                                                MY,
+                                                                NI,
+                                                                NL,
+                                                                NO,
+                                                                NZ,
+                                                                PA,
+                                                                PE,
+                                                                PH,
+                                                                PL,
+                                                                PT,
+                                                                PY,
+                                                                RO,
+                                                                SE,
+                                                                SG,
+                                                                SI,
+                                                                SK,
+                                                                SV,
+                                                                TR,
+                                                                TW
+                                                                );
+                         "disc_number" = 1;
+                         "duration_ms" = 207000;
+                         explicit = 1;
+                         "external_ids" =                 {
+                         isrc = USUM71208020;
+                         };
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/track/6dqPyhLeRp00WxKQSnILYg";
+                         };
+                         href = "https://api.spotify.com/v1/tracks/6dqPyhLeRp00WxKQSnILYg";
+                         id = 6dqPyhLeRp00WxKQSnILYg;
+                         name = "I'm Different";
+                         popularity = 62;
+                         "preview_url" = "https://p.scdn.co/mp3-preview/540abe3ef89d6a948ce689ec921dce13d7b3aeb7";
+                         "track_number" = 6;
+                         type = track;
+                         uri = "spotify:track:6dqPyhLeRp00WxKQSnILYg";
+                         },
+                         {
+                         album =                 {
+                         "album_type" = album;
+                         "available_markets" =                     (
+                                                                    AD,
+                                                                    AR,
+                                                                    AT,
+                                                                    AU,
+                                                                    BE,
+                                                                    BG,
+                                                                    BO,
+                                                                    BR,
+                                                                    CH,
+                                                                    CL,
+                                                                    CO,
+                                                                    CR,
+                                                                    CY,
+                                                                    CZ,
+                                                                    DE,
+                                                                    DK,
+                                                                    DO,
+                                                                    EC,
+                                                                    EE,
+                                                                    ES,
+                                                                    FI,
+                                                                    FR,
+                                                                    GB,
+                                                                    GR,
+                                                                    GT,
+                                                                    HK,
+                                                                    HN,
+                                                                    HU,
+                                                                    IE,
+                                                                    IS,
+                                                                    IT,
+                                                                    LI,
+                                                                    LT,
+                                                                    LU,
+                                                                    LV,
+                                                                    MC,
+                                                                    MT,
+                                                                    MY,
+                                                                    NI,
+                                                                    NL,
+                                                                    NO,
+                                                                    NZ,
+                                                                    PA,
+                                                                    PE,
+                                                                    PH,
+                                                                    PL,
+                                                                    PT,
+                                                                    PY,
+                                                                    RO,
+                                                                    SE,
+                                                                    SG,
+                                                                    SI,
+                                                                    SK,
+                                                                    SV,
+                                                                    TR,
+                                                                    TW
+                                                                    );
+                         "external_urls" =                     {
+                         spotify = "https://open.spotify.com/album/3p6wrYqeSr2KPNzJpxNWSc";
+                         };
+                         href = "https://api.spotify.com/v1/albums/3p6wrYqeSr2KPNzJpxNWSc";
+                         id = 3p6wrYqeSr2KPNzJpxNWSc;
+                         images =                     (
+                                                       {
+                                                       height = 640;
+                                                       url = "https://i.scdn.co/image/ef05b97985627bbdf11ea3b84e5c4fa0017ec69e";
+                                                       width = 640;
+                                                       },
+                                                       {
+                                                       height = 300;
+                                                       url = "https://i.scdn.co/image/d188abbdc4ed7ff06cbc1431b471091f21b61919";
+                                                       width = 300;
+                                                       },
+                                                       {
+                                                       height = 64;
+                                                       url = "https://i.scdn.co/image/b22d5cb9dfe80203ce142c806469abcca8f158e8";
+                                                       width = 64;
+                                                       }
+                                                       );
+                         name = "Based On A T.R.U. Story";
+                         type = album;
+                         uri = "spotify:album:3p6wrYqeSr2KPNzJpxNWSc";
+                         };
+                         artists =                 (
+                                                    {
+                                                    "external_urls" =                         {
+                                                    spotify = "https://open.spotify.com/artist/17lzZA2AlOHwCwFALHttmp";
+                                                    };
+                                                    href = "https://api.spotify.com/v1/artists/17lzZA2AlOHwCwFALHttmp";
+                                                    id = 17lzZA2AlOHwCwFALHttmp;
+                                                    name = "2 Chainz";
+                                                    type = artist;
+                                                    uri = "spotify:artist:17lzZA2AlOHwCwFALHttmp";
+                                                    },
+                                                    {
+                                                    "external_urls" =                         {
+                                                    spotify = "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4";
+                                                    };
+                                                    href = "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4";
+                                                    id = 3TVXtAsR1Inumwj472S9r4;
+                                                    name = Drake;
+                                                    type = artist;
+                                                    uri = "spotify:artist:3TVXtAsR1Inumwj472S9r4";
+                                                    }
+                                                    );
+                         "available_markets" =                 (
+                                                                AD,
+                                                                AR,
+                                                                AT,
+                                                                AU,
+                                                                BE,
+                                                                BG,
+                                                                BO,
+                                                                BR,
+                                                                CH,
+                                                                CL,
+                                                                CO,
+                                                                CR,
+                                                                CY,
+                                                                CZ,
+                                                                DE,
+                                                                DK,
+                                                                DO,
+                                                                EC,
+                                                                EE,
+                                                                ES,
+                                                                FI,
+                                                                FR,
+                                                                GB,
+                                                                GR,
+                                                                GT,
+                                                                HK,
+                                                                HN,
+                                                                HU,
+                                                                IE,
+                                                                IS,
+                                                                IT,
+                                                                LI,
+                                                                LT,
+                                                                LU,
+                                                                LV,
+                                                                MC,
+                                                                MT,
+                                                                MY,
+                                                                NI,
+                                                                NL,
+                                                                NO,
+                                                                NZ,
+                                                                PA,
+                                                                PE,
+                                                                PH,
+                                                                PL,
+                                                                PT,
+                                                                PY,
+                                                                RO,
+                                                                SE,
+                                                                SG,
+                                                                SI,
+                                                                SK,
+                                                                SV,
+                                                                TR,
+                                                                TW
+                                                                );
+                         "disc_number" = 1;
+                         "duration_ms" = 237800;
+                         explicit = 1;
+                         "external_ids" =                 {
+                         isrc = USUM71204666;
+                         };
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/track/5JvcHr1w3lwG09rsaqHECe";
+                         };
+                         href = "https://api.spotify.com/v1/tracks/5JvcHr1w3lwG09rsaqHECe";
+                         id = 5JvcHr1w3lwG09rsaqHECe;
+                         name = "No Lie";
+                         popularity = 59;
+                         "preview_url" = "https://p.scdn.co/mp3-preview/a1157269094250cc53c2e9654c0224363fc27121";
+                         "track_number" = 4;
+                         type = track;
+                         uri = "spotify:track:5JvcHr1w3lwG09rsaqHECe";
+                         }
+                         );
+        limit = 20;
+        next = "https://api.spotify.com/v1/search?query=tru&offset=20&limit=20&type=track";
+        offset = 0;
+        previous = "<null>";
+        total = 5378;
+    };
+}

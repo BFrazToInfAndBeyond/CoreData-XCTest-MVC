@@ -1,0 +1,87 @@
+{
+    artists =     {
+        href = "https://api.spotify.com/v1/search?query=aan&offset=0&limit=20&type=artist";
+        items =         (
+                         {
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/artist/2NHxSCevnjo91kqLavmMYG";
+                         };
+                         genres =                 (
+                         );
+                         href = "https://api.spotify.com/v1/artists/2NHxSCevnjo91kqLavmMYG";
+                         id = 2NHxSCevnjo91kqLavmMYG;
+                         images =                 (
+                                                   {
+                                                   height = 640;
+                                                   url = "https://i.scdn.co/image/bbeeb7fb3cfeba842419acbc16e40a0ac2aededc";
+                                                   width = 640;
+                                                   },
+                                                   {
+                                                   height = 300;
+                                                   url = "https://i.scdn.co/image/67b6270043595c4298ba2da245c18816909b1ff3";
+                                                   width = 300;
+                                                   },
+                                                   {
+                                                   height = 64;
+                                                   url = "https://i.scdn.co/image/e5b47d0e9e5a62a361067e362d8bbe47d5a24217";
+                                                   width = 64;
+                                                   }
+                                                   );
+                         name = Aan;
+                         popularity = 5;
+                         type = artist;
+                         uri = "spotify:artist:2NHxSCevnjo91kqLavmMYG";
+                         },
+                         {
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/artist/0Vix3ieD2LJgvXkzuLcncN";
+                         };
+                         genres =                 (
+                         );
+                         href = "https://api.spotify.com/v1/artists/0Vix3ieD2LJgvXkzuLcncN";
+                         id = 0Vix3ieD2LJgvXkzuLcncN;
+                         images =                 (
+                         );
+                         name = "Aan Dinata";
+                         popularity = 0;
+                         type = artist;
+                         uri = "spotify:artist:0Vix3ieD2LJgvXkzuLcncN";
+                         },
+                         {
+                         "external_urls" =                 {
+                         spotify = "https://open.spotify.com/artist/3HwX54CHtDwWlHmTj4wV5J";
+                         };
+                         genres =                 (
+                         );
+                         href = "https://api.spotify.com/v1/artists/3HwX54CHtDwWlHmTj4wV5J";
+                         id = 3HwX54CHtDwWlHmTj4wV5J;
+                         images =                 (
+                                                   {
+                                                   height = 640;
+                                                   url = "https://i.scdn.co/image/777822cf17d62deeec344b966a09fb1d18a5d734";
+                                                   width = 640;
+                                                   },
+                                                   {
+                                                   height = 300;
+                                                   url = "https://i.scdn.co/image/ae644542034de8b466e57e7249798f7070644439";
+                                                   width = 300;
+                                                   },
+                                                   {
+                                                   height = 64;
+                                                   url = "https://i.scdn.co/image/3feeccbc77c6a49899c59c24efba740f3a2f9315";
+                                                   width = 64;
+                                                   }
+                                                   );
+                         name = "Aan Zee";
+                         popularity = 0;
+                         type = artist;
+                         uri = "spotify:artist:3HwX54CHtDwWlHmTj4wV5J";
+                         }
+                         );
+        limit = 20;
+        next = "<null>";
+        offset = 0;
+        previous = "<null>";
+        total = 13;
+    };
+}

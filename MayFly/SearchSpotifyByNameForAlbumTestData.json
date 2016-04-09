@@ -1,0 +1,491 @@
+{
+    "albums" : {
+        "href" : "https://api.spotify.com/v1/search?query=Muse&offset=0&limit=20&type=album",
+        "items" : [ {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/0eFHYz8NmK75zSplL5qlfM"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/0eFHYz8NmK75zSplL5qlfM",
+                   "id" : "0eFHYz8NmK75zSplL5qlfM",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/4ca55ab16f598335b52c9f2103708042d85e2ad2",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/cf11442e18cea9231a08aa730df0532eef5c9a8a",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/f6500569e0b98137a6d26eee33286c5bb9ff623c",
+                               "width" : 64
+                               } ],
+                   "name" : "The Resistance",
+                   "type" : "album",
+                   "uri" : "spotify:album:0eFHYz8NmK75zSplL5qlfM"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/0lw68yx3MhKflWFqCsGkIs",
+                   "id" : "0lw68yx3MhKflWFqCsGkIs",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/cc938203606c1673a4e32334967f3621ed6769fe",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/acf6bd01fe17c53a7ef0b92fe52d3590d57df13e",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/6c751d61a730ab14dca55b1c7d3ce1f7f838aa23",
+                               "width" : 64
+                               } ],
+                   "name" : "Black Holes And Revelations",
+                   "type" : "album",
+                   "uri" : "spotify:album:0lw68yx3MhKflWFqCsGkIs"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/3KuXEGcqLcnEYWnn3OEGy0"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/3KuXEGcqLcnEYWnn3OEGy0",
+                   "id" : "3KuXEGcqLcnEYWnn3OEGy0",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/b62eae143027e6d5e00c713d06c4529506187bd1",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/2b412376036f7bc4394a120b9b7281442a6c2357",
+                               "width" : 64
+                               } ],
+                   "name" : "The 2nd Law",
+                   "type" : "album",
+                   "uri" : "spotify:album:3KuXEGcqLcnEYWnn3OEGy0"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/0HcHPBu9aaF1MxOiZmUQTl"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/0HcHPBu9aaF1MxOiZmUQTl",
+                   "id" : "0HcHPBu9aaF1MxOiZmUQTl",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/d90926f8a2c6c407a7140b4a38688cff7a28ecba",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/80035994478d52a38a52349f113c4e4cd217ec26",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/1518566e06fd58d45ae91ef374ed7fa759d42bdf",
+                               "width" : 64
+                               } ],
+                   "name" : "Absolution",
+                   "type" : "album",
+                   "uri" : "spotify:album:0HcHPBu9aaF1MxOiZmUQTl"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/1Dh27pjT3IEdiRG9Se5uQn"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/1Dh27pjT3IEdiRG9Se5uQn",
+                   "id" : "1Dh27pjT3IEdiRG9Se5uQn",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/1eb2fc7e4129e76d53f8b660a6845467f1ed47c7",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/65c48156fbea2b2a022cbf27dca905bf1ca726bc",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/5b0f3e6cbc3cf442ab1acce9a6e0309ad14b23d7",
+                               "width" : 64
+                               } ],
+                   "name" : "Origin Of Symmetry",
+                   "type" : "album",
+                   "uri" : "spotify:album:1Dh27pjT3IEdiRG9Se5uQn"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/2m7L60M210ABzrY9GLyBPZ"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/2m7L60M210ABzrY9GLyBPZ",
+                   "id" : "2m7L60M210ABzrY9GLyBPZ",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/53b942b5ef0b23c84ae5281865236609c132bff5",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/61e78c53b704ecb0610324dfd75d226129861ca3",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/f88f86e2da968f567d2f864e77f30ca273413599",
+                               "width" : 64
+                               } ],
+                   "name" : "Live At Rome Olympic Stadium",
+                   "type" : "album",
+                   "uri" : "spotify:album:2m7L60M210ABzrY9GLyBPZ"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/445uybhAr9ey555kQ6gahx"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/445uybhAr9ey555kQ6gahx",
+                   "id" : "445uybhAr9ey555kQ6gahx",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/9b9b295e844793161d56e05521f0b0244ab60563",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/8fcafc042382ed142a046c7d76a9afa39452c5df",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/985e2038b28e881b52ef7bd1f6e493eddc035585",
+                               "width" : 64
+                               } ],
+                   "name" : "Supermassive Black Hole",
+                   "type" : "album",
+                   "uri" : "spotify:album:445uybhAr9ey555kQ6gahx"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/6AyUVv7MnxxTuijp4WmrhO"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/6AyUVv7MnxxTuijp4WmrhO",
+                   "id" : "6AyUVv7MnxxTuijp4WmrhO",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/5b0a4b5d2158678cde19e54da73a859eb18f01d2",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/2ff8ce6e047b4d1d9c7895e1b8aa0fe606adefc9",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/5826e1831b1bb069b63956f8b962b0a3ef0e0027",
+                               "width" : 64
+                               } ],
+                   "name" : "Showbiz",
+                   "type" : "album",
+                   "uri" : "spotify:album:6AyUVv7MnxxTuijp4WmrhO"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/3Nio1yBgvU9DjkVblceXbh"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/3Nio1yBgvU9DjkVblceXbh",
+                   "id" : "3Nio1yBgvU9DjkVblceXbh",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/a4fcdc458f1a36141119bff6093896808052170c",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/89b4cadc988285a356a8bc37f47fd96a66e4126c",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/b1a58e1a2e854d7297b323402fd0cd7e7a008450",
+                               "width" : 64
+                               } ],
+                   "name" : "Muse",
+                   "type" : "album",
+                   "uri" : "spotify:album:3Nio1yBgvU9DjkVblceXbh"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/7IEp2DUicr3uqt2BTEQfMX"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/7IEp2DUicr3uqt2BTEQfMX",
+                   "id" : "7IEp2DUicr3uqt2BTEQfMX",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/630dbe6ccd5b90c003a017753fba1b4d20748590",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/a55b4d3161cd009af56160878e917d73a262ac2b",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/873579e6c5fe46db4f10a98adea3700943cfd94f",
+                               "width" : 64
+                               } ],
+                   "name" : "HAARP (Live From Wembley Stadium)",
+                   "type" : "album",
+                   "uri" : "spotify:album:7IEp2DUicr3uqt2BTEQfMX"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LT", "LU", "LV", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/5eJTvSeghTKoqN3Ly4TqEf"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/5eJTvSeghTKoqN3Ly4TqEf",
+                   "id" : "5eJTvSeghTKoqN3Ly4TqEf",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/59712f57ed3543f3d9d5339582122020a04f872d",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/4468a39a981983624145f5c11022206628ff072e",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/b46d5faa0565f174bbe6e0f0b183ef5e5070003b",
+                               "width" : 64
+                               } ],
+                   "name" : "Hullabaloo Soundtrack",
+                   "type" : "album",
+                   "uri" : "spotify:album:5eJTvSeghTKoqN3Ly4TqEf"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/2EcBoQ1Hb39hgSUEgrtR3j"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/2EcBoQ1Hb39hgSUEgrtR3j",
+                   "id" : "2EcBoQ1Hb39hgSUEgrtR3j",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/630dbe6ccd5b90c003a017753fba1b4d20748590",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/35cc35e7a60d2d567ba6c01da6e245449702f647",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/873579e6c5fe46db4f10a98adea3700943cfd94f",
+                               "width" : 64
+                               } ],
+                   "name" : "HAARP (Live From Wembley Stadium)",
+                   "type" : "album",
+                   "uri" : "spotify:album:2EcBoQ1Hb39hgSUEgrtR3j"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/2tJXza5ryx9DKIsmAI8neb"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/2tJXza5ryx9DKIsmAI8neb",
+                   "id" : "2tJXza5ryx9DKIsmAI8neb",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/0e4a00ba2511f86962b22587578a01b81c862a20",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/d3c0725ed4b67eaa819e0c1ad45926c9867a7eb3",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/a02a2913acea936a86a42a16b85458dd6017fa19",
+                               "width" : 64
+                               } ],
+                   "name" : "Neutron Star Collision [Love Is Forever]",
+                   "type" : "album",
+                   "uri" : "spotify:album:2tJXza5ryx9DKIsmAI8neb"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/7rVgrwaIGtV02VxLpEiNSo"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/7rVgrwaIGtV02VxLpEiNSo",
+                   "id" : "7rVgrwaIGtV02VxLpEiNSo",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/0900bdc1c2501567325964bb3d8e1153075a7795",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/1eb52e2f0710c20bcd742dc2eb3c7e78af149a14",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/13c703d529b7fb09df54cc95d607be0eef0704b1",
+                               "width" : 64
+                               } ],
+                   "name" : "Unintended",
+                   "type" : "album",
+                   "uri" : "spotify:album:7rVgrwaIGtV02VxLpEiNSo"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/53gjL9xXfrRQ8WrUfWYU94"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/53gjL9xXfrRQ8WrUfWYU94",
+                   "id" : "53gjL9xXfrRQ8WrUfWYU94",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/bbd195169c07a6f544454e4cd012943887287a7b",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/ee3f37b26d18a845b9358781575ce06108bc9e9f",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/b34c1bb2cf32efae311fc782c767f6d1a399b217",
+                               "width" : 64
+                               } ],
+                   "name" : "Madness",
+                   "type" : "album",
+                   "uri" : "spotify:album:53gjL9xXfrRQ8WrUfWYU94"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AT", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "NL", "NO", "PL", "PT", "RO", "SE", "SG", "SI", "SK", "TR" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/73aKwGN9VUhwtiGuB0e9Qj"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/73aKwGN9VUhwtiGuB0e9Qj",
+                   "id" : "73aKwGN9VUhwtiGuB0e9Qj",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/4677539e8bbb6f4319249b178f67fc2c87c7fbb6",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/9c52465f9d783bcafd24142cd955ef1be27ff9ed",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/e6c648aa5be9908b7af33cb0b95dc3d6bd213a2d",
+                               "width" : 64
+                               } ],
+                   "name" : "Uprising",
+                   "type" : "album",
+                   "uri" : "spotify:album:73aKwGN9VUhwtiGuB0e9Qj"
+                   }, {
+                   "album_type" : "album",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/2Q6KE89DGB3Hrh8loBbM64"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/2Q6KE89DGB3Hrh8loBbM64",
+                   "id" : "2Q6KE89DGB3Hrh8loBbM64",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/83e9b9f4ac73c5ef482e9b27904a219ed69bf5c4",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/ba930f59569b39b896b278ed9e5c5c42bd8f2ead",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/914b1a2c7b0eff3b61145d1529b26e90b5e589e3",
+                               "width" : 64
+                               } ],
+                   "name" : "The Muse",
+                   "type" : "album",
+                   "uri" : "spotify:album:2Q6KE89DGB3Hrh8loBbM64"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/3kVGhOkgwIS2S0Gf1El92G"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/3kVGhOkgwIS2S0Gf1El92G",
+                   "id" : "3kVGhOkgwIS2S0Gf1El92G",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/e06e9e3028b06201f1199f81588a6a27549f0b1c",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/3572d555d05478fbe8aac30ce40b1c1eef765d28",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/e0c5935488184abb3c2bf3bc48458de8760742c6",
+                               "width" : 64
+                               } ],
+                   "name" : "Dead Star / In Your World",
+                   "type" : "album",
+                   "uri" : "spotify:album:3kVGhOkgwIS2S0Gf1El92G"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/0WR3sYcsVtTdVoPZItUaU4"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/0WR3sYcsVtTdVoPZItUaU4",
+                   "id" : "0WR3sYcsVtTdVoPZItUaU4",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/61ca3f82ed89201fbe1430ef0589e7365f5c8c95",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/4e7107be3f6c4587946f09a21f9afd8b068f6fad",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/07cba8d91b9a4a7c83e1a4d7826da780303b7e6e",
+                               "width" : 64
+                               } ],
+                   "name" : "Muse",
+                   "type" : "album",
+                   "uri" : "spotify:album:0WR3sYcsVtTdVoPZItUaU4"
+                   }, {
+                   "album_type" : "single",
+                   "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+                   "external_urls" : {
+                   "spotify" : "https://open.spotify.com/album/16rRWuAQcgHUNYs7u0hLTr"
+                   },
+                   "href" : "https://api.spotify.com/v1/albums/16rRWuAQcgHUNYs7u0hLTr",
+                   "id" : "16rRWuAQcgHUNYs7u0hLTr",
+                   "images" : [ {
+                               "height" : 640,
+                               "url" : "https://i.scdn.co/image/d0565761904d827f286d6ba7d6f03a56e2b62801",
+                               "width" : 640
+                               }, {
+                               "height" : 300,
+                               "url" : "https://i.scdn.co/image/ae430dc370a30dd325f1137028e42ba3528cbced",
+                               "width" : 300
+                               }, {
+                               "height" : 64,
+                               "url" : "https://i.scdn.co/image/2085d0d47ac5604ca68b6884920faf604ad76df4",
+                               "width" : 64
+                               } ],
+                   "name" : "Hysteria",
+                   "type" : "album",
+                   "uri" : "spotify:album:16rRWuAQcgHUNYs7u0hLTr"
+                   } ],
+        "limit" : 20,
+        "next" : "https://api.spotify.com/v1/search?query=Muse&offset=20&limit=20&type=album",
+        "offset" : 0,
+        "previous" : null,
+        "total" : 719
+    }
+}

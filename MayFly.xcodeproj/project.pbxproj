@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7410EF9A1A392D310033D433 /* XCTestCase+ASYAsynchronousTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EF991A392D310033D433 /* XCTestCase+ASYAsynchronousTesting.m */; };
+		7410EF9D1A392D900033D433 /* XCTestCase+MFTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EF9C1A392D900033D433 /* XCTestCase+MFTestUtils.m */; };
+		7410EFA01A392DB60033D433 /* MFKVOTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EF9F1A392DB60033D433 /* MFKVOTester.m */; };
+		742341321A46C0A2001D57BC /* ui-icon-star-rating-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7423412E1A46C0A2001D57BC /* ui-icon-star-rating-filled.png */; };
+		742341331A46C0A2001D57BC /* ui-icon-star-rating-filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7423412F1A46C0A2001D57BC /* ui-icon-star-rating-filled@2x.png */; };
+		742341341A46C0A2001D57BC /* ui-icon-star-rating-unfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 742341301A46C0A2001D57BC /* ui-icon-star-rating-unfilled.png */; };
+		742341351A46C0A2001D57BC /* ui-icon-star-rating-unfilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 742341311A46C0A2001D57BC /* ui-icon-star-rating-unfilled@2x.png */; };
+		74248F721A41229E00A8D74E /* MFSearchModelBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74248F711A41229E00A8D74E /* MFSearchModelBaseTests.m */; };
+		743250A51A3BF69000B5A2E6 /* MFSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 743250A41A3BF69000B5A2E6 /* MFSearchResult.m */; };
+		743250A81A3BF6B000B5A2E6 /* MFScopedSearchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 743250A71A3BF6B000B5A2E6 /* MFScopedSearchPresenter.m */; };
+		743250AB1A3BF6DA00B5A2E6 /* MFScopedSearchPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743250AA1A3BF6DA00B5A2E6 /* MFScopedSearchPresenterTests.m */; };
+		743250AE1A3BF8F400B5A2E6 /* MFScopedSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743250AD1A3BF8F400B5A2E6 /* MFScopedSearchView.xib */; };
+		743250B01A3BFE6E00B5A2E6 /* MFSearchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 743250AF1A3BFE6E00B5A2E6 /* MFSearchPresenter.m */; };
+		743250B31A3C00AC00B5A2E6 /* MFSearchPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743250B21A3C00AC00B5A2E6 /* MFSearchPresenterTests.m */; };
+		743E6C201A40014900FA0240 /* MFBackgroundTaskHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E6C1F1A40014900FA0240 /* MFBackgroundTaskHandler.m */; };
+		743E6C241A40022000FA0240 /* MFDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E6C231A40022000FA0240 /* MFDispatcher.m */; };
+		743E6C271A40024000FA0240 /* MFDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E6C261A40024000FA0240 /* MFDispatcherTests.m */; };
+		743E6C291A4005B100FA0240 /* MFSearchModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E6C281A4005B100FA0240 /* MFSearchModelBase.m */; };
+		74476D2A1A478C5900DB34A8 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74476D291A478C5900DB34A8 /* Spotify.framework */; };
+		74476D2C1A478EE400DB34A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74476D2B1A478EE400DB34A8 /* AVFoundation.framework */; };
+		74476D301A480F1100DB34A8 /* AlbumTestData_AlbumWithAlbumId.json in Resources */ = {isa = PBXBuildFile; fileRef = 74476D2F1A480F1100DB34A8 /* AlbumTestData_AlbumWithAlbumId.json */; };
+		745420CC1A38EE8400AAF791 /* AFHTTPrequestOperationManager+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 745420CB1A38EE8400AAF791 /* AFHTTPrequestOperationManager+Timeout.m */; };
+		745420D01A38EEF700AAF791 /* MFServiceClientBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 745420CF1A38EEF700AAF791 /* MFServiceClientBase.m */; };
+		745420D21A38EF0900AAF791 /* MFServiceClientBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745420D11A38EF0900AAF791 /* MFServiceClientBaseTests.m */; };
+		745420D61A38EF8E00AAF791 /* MFEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 745420D51A38EF8E00AAF791 /* MFEndpoint.m */; };
+		745420D81A38EFA100AAF791 /* MFEndpointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745420D71A38EFA100AAF791 /* MFEndpointTests.m */; };
+		745420DC1A38F00500AAF791 /* MFEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 745420DB1A38F00500AAF791 /* MFEnvironment.m */; };
+		745B0A3A1A3BED7000237435 /* MFScopedSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 745B0A391A3BED7000237435 /* MFScopedSearchView.m */; };
+		7465B88C1A3DFA03009908EC /* MFCoreDataAlbumPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465B88B1A3DFA03009908EC /* MFCoreDataAlbumPersistence.m */; };
+		7465B88E1A3DFA22009908EC /* MFCoreDataAlbumPersistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465B88D1A3DFA22009908EC /* MFCoreDataAlbumPersistenceTests.m */; };
+		7465B8911A3E4B0E009908EC /* ArtistTestData_AlbumsWithArtistId.json in Resources */ = {isa = PBXBuildFile; fileRef = 7465B8901A3E4B0E009908EC /* ArtistTestData_AlbumsWithArtistId.json */; };
+		7465B8931A3E4BDB009908EC /* AlbumTestData_TracksWithAlbumId.json in Resources */ = {isa = PBXBuildFile; fileRef = 7465B8921A3E4BDB009908EC /* AlbumTestData_TracksWithAlbumId.json */; };
+		7465B8971A3E6559009908EC /* MFCoreDataPersistenceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465B8961A3E6559009908EC /* MFCoreDataPersistenceFactory.m */; };
+		7465B8991A3E656A009908EC /* MFCoreDataPersistenceFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465B8981A3E656A009908EC /* MFCoreDataPersistenceFactoryTests.m */; };
+		7465B89B1A3E7060009908EC /* MFServiceClientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465B89A1A3E7060009908EC /* MFServiceClientFactory.m */; };
+		7465B89E1A3E7088009908EC /* MFServiceClientFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465B89D1A3E7088009908EC /* MFServiceClientFactoryTests.m */; };
+		7477256A1A510FD300477AED /* MFRelatedArtistsServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 747725691A510FD300477AED /* MFRelatedArtistsServiceClient.m */; };
+		747935491A394A3E00213BFF /* MFAlbumTrackServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 747935481A394A3E00213BFF /* MFAlbumTrackServiceClient.m */; };
+		7479354B1A394BD300213BFF /* MFAlbumTracksServiceClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7479354A1A394BD300213BFF /* MFAlbumTracksServiceClientTests.m */; };
+		7479354E1A394DDB00213BFF /* MFArtistAlbumsServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7479354D1A394DDB00213BFF /* MFArtistAlbumsServiceClient.m */; };
+		747935501A39515500213BFF /* MFArtistAlbumsServiceClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7479354F1A39515500213BFF /* MFArtistAlbumsServiceClientTests.m */; };
+		747935531A39537000213BFF /* MFArtistServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 747935521A39537000213BFF /* MFArtistServiceClient.m */; };
+		747935551A39539A00213BFF /* MFArtistServiceClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747935541A39539A00213BFF /* MFArtistServiceClientTests.m */; };
+		747935591A39582900213BFF /* MFSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747935581A39582900213BFF /* MFSearchCell.xib */; };
+		7481A82B1A4E535100ACE141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7481A82A1A4E535100ACE141 /* Main.storyboard */; };
+		7481AD991A3DF6FE00FF622A /* MFCoreDataTrackPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481AD981A3DF6FE00FF622A /* MFCoreDataTrackPersistence.m */; };
+		7481AD9C1A3DF72300FF622A /* MFCoreDataTrackPersistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481AD9B1A3DF72300FF622A /* MFCoreDataTrackPersistenceTests.m */; };
+		7483A52F1A64C76600B0AC05 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7483A52E1A64C76600B0AC05 /* AppIcon.png */; };
+		7483A5311A64C8C800B0AC05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7483A5301A64C8C800B0AC05 /* LaunchScreen.xib */; };
+		749F45BF1A3CE27700180EE2 /* MFSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 749F45BE1A3CE27700180EE2 /* MFSearchCell.m */; };
+		74A098C71A3D151E00110B4B /* MFCoreDataInMemoryPSCProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A098C61A3D151E00110B4B /* MFCoreDataInMemoryPSCProvider.m */; };
+		74A098CA1A3D156C00110B4B /* MFCoreDataMOCProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A098C91A3D156C00110B4B /* MFCoreDataMOCProvider.m */; };
+		74A098CD1A3D159400110B4B /* MFCoreDataSqlitePSCProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A098CC1A3D159400110B4B /* MFCoreDataSqlitePSCProvider.m */; };
+		74A098DA1A3D1AE400110B4B /* Mayfly.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 74A098D91A3D1AE400110B4B /* Mayfly.xcdatamodel */; };
+		74A098FB1A3D2B1400110B4B /* MFCoreDataObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A098FA1A3D2B1400110B4B /* MFCoreDataObjectMapping.m */; };
+		74A0991A1A3D469F00110B4B /* MFAlbumEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A099191A3D469F00110B4B /* MFAlbumEntity.m */; };
+		74A0991D1A3D46B100110B4B /* MFArtistEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A0991C1A3D46B100110B4B /* MFArtistEntity.m */; };
+		74A099201A3D46EB00110B4B /* MFImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A0991F1A3D46EB00110B4B /* MFImageEntity.m */; };
+		74A099231A3D46FA00110B4B /* MFTrackEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A099221A3D46FA00110B4B /* MFTrackEntity.m */; };
+		74A099251A3D4F9600110B4B /* MFCoreDataArtistPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A099241A3D4F9600110B4B /* MFCoreDataArtistPersistence.m */; };
+		74A099281A3D510600110B4B /* MFCoreDataArtistPersistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A099271A3D510600110B4B /* MFCoreDataArtistPersistenceTests.m */; };
+		74A0992B1A3D53C100110B4B /* MFTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A0992A1A3D53C100110B4B /* MFTestUtilities.m */; };
+		74A3555C1A426DE800F0412C /* SearchSpotifyByNameForAlbumTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74A355591A426DE800F0412C /* SearchSpotifyByNameForAlbumTestData.json */; };
+		74A3555D1A426DE800F0412C /* SearchSpotifyByNameForArtistTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74A3555A1A426DE800F0412C /* SearchSpotifyByNameForArtistTestData.json */; };
+		74A3555E1A426DE800F0412C /* SearchSpotifyByNameForTrackTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74A3555B1A426DE800F0412C /* SearchSpotifyByNameForTrackTestData.json */; };
+		74A355621A426F1300F0412C /* MFArtistPonso.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A355611A426F1300F0412C /* MFArtistPonso.m */; };
+		74A355651A426F4B00F0412C /* MFAlbumPonso.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A355641A426F4B00F0412C /* MFAlbumPonso.m */; };
+		74A355681A426F6400F0412C /* MFImagePonso.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A355671A426F6400F0412C /* MFImagePonso.m */; };
+		74A3556B1A426F7D00F0412C /* MFTrackPonso.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A3556A1A426F7D00F0412C /* MFTrackPonso.m */; };
+		74A3556D1A42748600F0412C /* ArtistTestData_ArtistWithArtistId.json in Resources */ = {isa = PBXBuildFile; fileRef = 74A3556C1A42748600F0412C /* ArtistTestData_ArtistWithArtistId.json */; };
+		74AC8D831A53685700FE7871 /* MFMemoryStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC8D821A53685700FE7871 /* MFMemoryStack.m */; };
+		74AC8D851A536CBC00FE7871 /* MFMemoryStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC8D841A536CBC00FE7871 /* MFMemoryStackTests.m */; };
+		74AC8D8E1A54A07700FE7871 /* MFMultipleAlbumsServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC8D8D1A54A07700FE7871 /* MFMultipleAlbumsServiceClient.m */; };
+		74AC8D901A54A08500FE7871 /* MFMultipleAlbumsServiceClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC8D8F1A54A08500FE7871 /* MFMultipleAlbumsServiceClientTests.m */; };
+		74AC8D9A1A55FCAD00FE7871 /* MFMultipleArtistsServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC8D991A55FCAD00FE7871 /* MFMultipleArtistsServiceClient.m */; };
+		74AC8D9C1A55FCCA00FE7871 /* MFMultipleArtistsServiceClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC8D9B1A55FCCA00FE7871 /* MFMultipleArtistsServiceClientTests.m */; };
+		74AC8DA01A561B9100FE7871 /* MultipleAlbumsForTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74AC8D9F1A561B9100FE7871 /* MultipleAlbumsForTestData.json */; };
+		74AC8DA21A5631E600FE7871 /* spotify_token_swap.rb in Resources */ = {isa = PBXBuildFile; fileRef = 74AC8DA11A5631E600FE7871 /* spotify_token_swap.rb */; };
+		74AD8ADE1A3FD7680060C365 /* MFSpotifySearchModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD8ADD1A3FD7680060C365 /* MFSpotifySearchModelTests.m */; };
+		74AD8AE01A3FE2450060C365 /* MFQueryByNameServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD8ADF1A3FE2450060C365 /* MFQueryByNameServiceClient.m */; };
+		74AD8AE31A3FE2690060C365 /* MFQueryByNameServiceClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD8AE21A3FE2690060C365 /* MFQueryByNameServiceClientTests.m */; };
+		74AD8AE51A3FF88C0060C365 /* MFFavoritedSearchModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD8AE41A3FF88C0060C365 /* MFFavoritedSearchModelTests.m */; };
+		74B4B2591A64586300B174DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B4B2581A64586300B174DD /* Images.xcassets */; };
+		74BCB4F91A4C8AEE008844CC /* MFFileLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCB4F81A4C8AEE008844CC /* MFFileLocationProvider.m */; };
+		74BF17C11A48C55700E5F7A7 /* MFPersistencePonsoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF17C01A48C55700E5F7A7 /* MFPersistencePonsoProvider.m */; };
+		74BF17C31A48C57300E5F7A7 /* MFPersistingPonsoProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF17C21A48C57300E5F7A7 /* MFPersistingPonsoProviderTests.m */; };
+		74BF17C71A48C83D00E5F7A7 /* MFCoreDataImagePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF17C61A48C83C00E5F7A7 /* MFCoreDataImagePersistence.m */; };
+		74BF17C91A48D49700E5F7A7 /* MFCoreDataImagePersistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF17C81A48D49700E5F7A7 /* MFCoreDataImagePersistenceTests.m */; };
+		74BF17CD1A49372D00E5F7A7 /* SerializedQueryAlbumByName.json in Resources */ = {isa = PBXBuildFile; fileRef = 74BF17CC1A49372D00E5F7A7 /* SerializedQueryAlbumByName.json */; };
+		74BF17CE1A49373000E5F7A7 /* SerializedQueryArtistByName.json in Resources */ = {isa = PBXBuildFile; fileRef = 74BF17CA1A49211F00E5F7A7 /* SerializedQueryArtistByName.json */; };
+		74BF17D01A49374A00E5F7A7 /* SerializedQueryTrackByName.json in Resources */ = {isa = PBXBuildFile; fileRef = 74BF17CF1A49374A00E5F7A7 /* SerializedQueryTrackByName.json */; };
+		74C8E6211A3931E600A55856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8E6201A3931E600A55856 /* UIKit.framework */; };
+		74C8E6231A3931ED00A55856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8E6221A3931ED00A55856 /* Foundation.framework */; };
+		74C8E6271A39323A00A55856 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8E6261A39323A00A55856 /* CoreGraphics.framework */; };
+		74C8E6281A39324100A55856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8E6201A3931E600A55856 /* UIKit.framework */; };
+		74C8E6291A39324A00A55856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C8E6221A3931ED00A55856 /* Foundation.framework */; };
+		74E066831A3FB79E00AA1530 /* MFSpotifySearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E066821A3FB79E00AA1530 /* MFSpotifySearchModel.m */; };
+		74E066871A3FB7DD00AA1530 /* MFFavoritedSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E066861A3FB7DD00AA1530 /* MFFavoritedSearchModel.m */; };
+		74F0DA7E1A38E1E900F7922C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DA7D1A38E1E900F7922C /* main.m */; };
+		74F0DA811A38E1E900F7922C /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DA801A38E1E900F7922C /* MFAppDelegate.m */; };
+		74F0DA841A38E1E900F7922C /* MFSpotifySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DA831A38E1E900F7922C /* MFSpotifySearchViewController.m */; };
+		74F0DA871A38E1E900F7922C /* MFFavoritedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F0DA861A38E1E900F7922C /* MFFavoritedSearchViewController.m */; };
+		74FBF8231A8BF3BA005A60BD /* Stubble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FBF8221A8BF3BA005A60BD /* Stubble.framework */; };
+		8962DADD379ED1E824C2999E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5DD376171153C4ACA770E /* libPods.a */; };
+		8E60AA97252AB47DBE2EFFB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5DD376171153C4ACA770E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74F0DA951A38E1E900F7922C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F0DA701A38E1E800F7922C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F0DA771A38E1E900F7922C;
+			remoteInfo = MayFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A2F9DCC4CA2B476897B828 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		56C5DD376171153C4ACA770E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7410EF981A392D160033D433 /* XCTestCase+ASYAsynchronousTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+ASYAsynchronousTesting.h"; sourceTree = "<group>"; };
+		7410EF991A392D310033D433 /* XCTestCase+ASYAsynchronousTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+ASYAsynchronousTesting.m"; sourceTree = "<group>"; };
+		7410EF9B1A392D7A0033D433 /* XCTestCase+MFTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+MFTestUtils.h"; sourceTree = "<group>"; };
+		7410EF9C1A392D900033D433 /* XCTestCase+MFTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+MFTestUtils.m"; sourceTree = "<group>"; };
+		7410EF9E1A392DA20033D433 /* MFKVOTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFKVOTester.h; sourceTree = "<group>"; };
+		7410EF9F1A392DB60033D433 /* MFKVOTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFKVOTester.m; sourceTree = "<group>"; };
+		7423412E1A46C0A2001D57BC /* ui-icon-star-rating-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-icon-star-rating-filled.png"; sourceTree = "<group>"; };
+		7423412F1A46C0A2001D57BC /* ui-icon-star-rating-filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-icon-star-rating-filled@2x.png"; sourceTree = "<group>"; };
+		742341301A46C0A2001D57BC /* ui-icon-star-rating-unfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-icon-star-rating-unfilled.png"; sourceTree = "<group>"; };
+		742341311A46C0A2001D57BC /* ui-icon-star-rating-unfilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-icon-star-rating-unfilled@2x.png"; sourceTree = "<group>"; };
+		74248F711A41229E00A8D74E /* MFSearchModelBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchModelBaseTests.m; sourceTree = "<group>"; };
+		743250A31A3BF63F00B5A2E6 /* MFSearchViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchViewInterface.h; sourceTree = "<group>"; };
+		743250A41A3BF69000B5A2E6 /* MFSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchResult.m; sourceTree = "<group>"; };
+		743250A61A3BF69D00B5A2E6 /* MFSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchResult.h; sourceTree = "<group>"; };
+		743250A71A3BF6B000B5A2E6 /* MFScopedSearchPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFScopedSearchPresenter.m; sourceTree = "<group>"; };
+		743250A91A3BF6C000B5A2E6 /* MFScopedSearchPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFScopedSearchPresenter.h; sourceTree = "<group>"; };
+		743250AA1A3BF6DA00B5A2E6 /* MFScopedSearchPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFScopedSearchPresenterTests.m; sourceTree = "<group>"; };
+		743250AC1A3BF7F800B5A2E6 /* MFSearchModelInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchModelInterface.h; sourceTree = "<group>"; };
+		743250AD1A3BF8F400B5A2E6 /* MFScopedSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFScopedSearchView.xib; sourceTree = "<group>"; };
+		743250AF1A3BFE6E00B5A2E6 /* MFSearchPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchPresenter.m; sourceTree = "<group>"; };
+		743250B11A3BFE7D00B5A2E6 /* MFSearchPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchPresenter.h; sourceTree = "<group>"; };
+		743250B21A3C00AC00B5A2E6 /* MFSearchPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchPresenterTests.m; sourceTree = "<group>"; };
+		743E6C1F1A40014900FA0240 /* MFBackgroundTaskHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBackgroundTaskHandler.m; sourceTree = "<group>"; };
+		743E6C221A4001AA00FA0240 /* MFBackgroundTaskHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBackgroundTaskHandler.h; sourceTree = "<group>"; };
+		743E6C231A40022000FA0240 /* MFDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDispatcher.m; sourceTree = "<group>"; };
+		743E6C251A40022F00FA0240 /* MFDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDispatcher.h; sourceTree = "<group>"; };
+		743E6C261A40024000FA0240 /* MFDispatcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDispatcherTests.m; sourceTree = "<group>"; };
+		743E6C281A4005B100FA0240 /* MFSearchModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchModelBase.m; sourceTree = "<group>"; };
+		743E6C2A1A4005BA00FA0240 /* MFSearchModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchModelBase.h; sourceTree = "<group>"; };
+		74476D291A478C5900DB34A8 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		74476D2B1A478EE400DB34A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		74476D2F1A480F1100DB34A8 /* AlbumTestData_AlbumWithAlbumId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AlbumTestData_AlbumWithAlbumId.json; sourceTree = "<group>"; };
+		745420CA1A38EE6D00AAF791 /* AFHTTPRequestOperationManager+Timeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+Timeout.h"; sourceTree = "<group>"; };
+		745420CB1A38EE8400AAF791 /* AFHTTPrequestOperationManager+Timeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPrequestOperationManager+Timeout.m"; sourceTree = "<group>"; };
+		745420CE1A38EEDF00AAF791 /* MFServiceClientBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFServiceClientBase.h; sourceTree = "<group>"; };
+		745420CF1A38EEF700AAF791 /* MFServiceClientBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFServiceClientBase.m; sourceTree = "<group>"; };
+		745420D11A38EF0900AAF791 /* MFServiceClientBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFServiceClientBaseTests.m; sourceTree = "<group>"; };
+		745420D41A38EF8100AAF791 /* MFEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFEndpoint.h; sourceTree = "<group>"; };
+		745420D51A38EF8E00AAF791 /* MFEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFEndpoint.m; sourceTree = "<group>"; };
+		745420D71A38EFA100AAF791 /* MFEndpointTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFEndpointTests.m; sourceTree = "<group>"; };
+		745420DA1A38EFF600AAF791 /* MFEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFEnvironment.h; sourceTree = "<group>"; };
+		745420DB1A38F00500AAF791 /* MFEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFEnvironment.m; sourceTree = "<group>"; };
+		745B0A381A3BED5600237435 /* MFScopedSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFScopedSearchView.h; sourceTree = "<group>"; };
+		745B0A391A3BED7000237435 /* MFScopedSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFScopedSearchView.m; sourceTree = "<group>"; };
+		7465B88A1A3DF9EF009908EC /* MFCoreDataAlbumPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataAlbumPersistence.h; sourceTree = "<group>"; };
+		7465B88B1A3DFA03009908EC /* MFCoreDataAlbumPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataAlbumPersistence.m; sourceTree = "<group>"; };
+		7465B88D1A3DFA22009908EC /* MFCoreDataAlbumPersistenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataAlbumPersistenceTests.m; sourceTree = "<group>"; };
+		7465B88F1A3DFC64009908EC /* MFSearchScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchScope.h; sourceTree = "<group>"; };
+		7465B8901A3E4B0E009908EC /* ArtistTestData_AlbumsWithArtistId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArtistTestData_AlbumsWithArtistId.json; sourceTree = "<group>"; };
+		7465B8921A3E4BDB009908EC /* AlbumTestData_TracksWithAlbumId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AlbumTestData_TracksWithAlbumId.json; sourceTree = "<group>"; };
+		7465B8941A3E64A1009908EC /* MFPersistenceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPersistenceFactory.h; sourceTree = "<group>"; };
+		7465B8951A3E6547009908EC /* MFCoreDataPersistenceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataPersistenceFactory.h; sourceTree = "<group>"; };
+		7465B8961A3E6559009908EC /* MFCoreDataPersistenceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataPersistenceFactory.m; sourceTree = "<group>"; };
+		7465B8981A3E656A009908EC /* MFCoreDataPersistenceFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataPersistenceFactoryTests.m; sourceTree = "<group>"; };
+		7465B89A1A3E7060009908EC /* MFServiceClientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFServiceClientFactory.m; sourceTree = "<group>"; };
+		7465B89C1A3E7071009908EC /* MFServiceClientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFServiceClientFactory.h; sourceTree = "<group>"; };
+		7465B89D1A3E7088009908EC /* MFServiceClientFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFServiceClientFactoryTests.m; sourceTree = "<group>"; };
+		747725681A510FB200477AED /* MFRelatedArtistsServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFRelatedArtistsServiceClient.h; sourceTree = "<group>"; };
+		747725691A510FD300477AED /* MFRelatedArtistsServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFRelatedArtistsServiceClient.m; sourceTree = "<group>"; };
+		747935471A39496000213BFF /* MFAlbumTracksServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlbumTracksServiceClient.h; sourceTree = "<group>"; };
+		747935481A394A3E00213BFF /* MFAlbumTrackServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAlbumTrackServiceClient.m; sourceTree = "<group>"; };
+		7479354A1A394BD300213BFF /* MFAlbumTracksServiceClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAlbumTracksServiceClientTests.m; sourceTree = "<group>"; };
+		7479354C1A394DBE00213BFF /* MFArtistAlbumsServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFArtistAlbumsServiceClient.h; sourceTree = "<group>"; };
+		7479354D1A394DDB00213BFF /* MFArtistAlbumsServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFArtistAlbumsServiceClient.m; sourceTree = "<group>"; };
+		7479354F1A39515500213BFF /* MFArtistAlbumsServiceClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFArtistAlbumsServiceClientTests.m; sourceTree = "<group>"; };
+		747935511A39536100213BFF /* MFArtistServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFArtistServiceClient.h; sourceTree = "<group>"; };
+		747935521A39537000213BFF /* MFArtistServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFArtistServiceClient.m; sourceTree = "<group>"; };
+		747935541A39539A00213BFF /* MFArtistServiceClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFArtistServiceClientTests.m; sourceTree = "<group>"; };
+		747935581A39582900213BFF /* MFSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFSearchCell.xib; sourceTree = "<group>"; };
+		7481A82A1A4E535100ACE141 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7481AD981A3DF6FE00FF622A /* MFCoreDataTrackPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataTrackPersistence.m; sourceTree = "<group>"; };
+		7481AD9A1A3DF70F00FF622A /* MFCoreDataTrackPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataTrackPersistence.h; sourceTree = "<group>"; };
+		7481AD9B1A3DF72300FF622A /* MFCoreDataTrackPersistenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataTrackPersistenceTests.m; sourceTree = "<group>"; };
+		7483A52E1A64C76600B0AC05 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		7483A5301A64C8C800B0AC05 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		749F45BC1A3CD06A00180EE2 /* MFSearchPresenterProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchPresenterProtected.h; sourceTree = "<group>"; };
+		749F45BD1A3CE26800180EE2 /* MFSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchCell.h; sourceTree = "<group>"; };
+		749F45BE1A3CE27700180EE2 /* MFSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchCell.m; sourceTree = "<group>"; };
+		74A098C61A3D151E00110B4B /* MFCoreDataInMemoryPSCProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataInMemoryPSCProvider.m; sourceTree = "<group>"; };
+		74A098C81A3D154000110B4B /* MFCoreDataInMemoryPSCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataInMemoryPSCProvider.h; sourceTree = "<group>"; };
+		74A098C91A3D156C00110B4B /* MFCoreDataMOCProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataMOCProvider.m; sourceTree = "<group>"; };
+		74A098CB1A3D157D00110B4B /* MFCoreDataMOCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataMOCProvider.h; sourceTree = "<group>"; };
+		74A098CC1A3D159400110B4B /* MFCoreDataSqlitePSCProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataSqlitePSCProvider.m; sourceTree = "<group>"; };
+		74A098CE1A3D15A500110B4B /* MFCoreDataSqlitePSCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataSqlitePSCProvider.h; sourceTree = "<group>"; };
+		74A098CF1A3D15C100110B4B /* MFCoreDataPSCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataPSCProvider.h; sourceTree = "<group>"; };
+		74A098D91A3D1AE400110B4B /* Mayfly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = Mayfly.xcdatamodel; path = MayFly/Mayfly.xcdatamodel; sourceTree = "<group>"; };
+		74A098F11A3D24C900110B4B /* MFArtistPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFArtistPersistence.h; sourceTree = "<group>"; };
+		74A098F21A3D24E200110B4B /* MFTrackPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTrackPersistence.h; sourceTree = "<group>"; };
+		74A098F31A3D24F700110B4B /* MFAlbumPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlbumPersistence.h; sourceTree = "<group>"; };
+		74A098F61A3D272700110B4B /* MFArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFArtist.h; sourceTree = "<group>"; };
+		74A098F71A3D273700110B4B /* MFAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlbum.h; sourceTree = "<group>"; };
+		74A098F81A3D274400110B4B /* MFTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTrack.h; sourceTree = "<group>"; };
+		74A098F91A3D279300110B4B /* MFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFImage.h; sourceTree = "<group>"; };
+		74A098FA1A3D2B1400110B4B /* MFCoreDataObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataObjectMapping.m; sourceTree = "<group>"; };
+		74A098FC1A3D2B2700110B4B /* MFCoreDataObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataObjectMapping.h; sourceTree = "<group>"; };
+		74A099181A3D469F00110B4B /* MFAlbumEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFAlbumEntity.h; path = ../MFAlbumEntity.h; sourceTree = "<group>"; };
+		74A099191A3D469F00110B4B /* MFAlbumEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFAlbumEntity.m; path = ../MFAlbumEntity.m; sourceTree = "<group>"; };
+		74A0991B1A3D46B100110B4B /* MFArtistEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFArtistEntity.h; path = ../MFArtistEntity.h; sourceTree = "<group>"; };
+		74A0991C1A3D46B100110B4B /* MFArtistEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFArtistEntity.m; path = ../MFArtistEntity.m; sourceTree = "<group>"; };
+		74A0991E1A3D46EB00110B4B /* MFImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFImageEntity.h; path = ../MFImageEntity.h; sourceTree = "<group>"; };
+		74A0991F1A3D46EB00110B4B /* MFImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFImageEntity.m; path = ../MFImageEntity.m; sourceTree = "<group>"; };
+		74A099211A3D46FA00110B4B /* MFTrackEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFTrackEntity.h; path = ../MFTrackEntity.h; sourceTree = "<group>"; };
+		74A099221A3D46FA00110B4B /* MFTrackEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFTrackEntity.m; path = ../MFTrackEntity.m; sourceTree = "<group>"; };
+		74A099241A3D4F9600110B4B /* MFCoreDataArtistPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataArtistPersistence.m; sourceTree = "<group>"; };
+		74A099261A3D4FAE00110B4B /* MFCoreDataArtistPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataArtistPersistence.h; sourceTree = "<group>"; };
+		74A099271A3D510600110B4B /* MFCoreDataArtistPersistenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataArtistPersistenceTests.m; sourceTree = "<group>"; };
+		74A0992A1A3D53C100110B4B /* MFTestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTestUtilities.m; sourceTree = "<group>"; };
+		74A0992C1A3D546700110B4B /* MFTestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFTestUtilities.h; path = ../MFTestUtilities.h; sourceTree = "<group>"; };
+		74A355591A426DE800F0412C /* SearchSpotifyByNameForAlbumTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchSpotifyByNameForAlbumTestData.json; sourceTree = "<group>"; };
+		74A3555A1A426DE800F0412C /* SearchSpotifyByNameForArtistTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchSpotifyByNameForArtistTestData.json; sourceTree = "<group>"; };
+		74A3555B1A426DE800F0412C /* SearchSpotifyByNameForTrackTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchSpotifyByNameForTrackTestData.json; sourceTree = "<group>"; };
+		74A355601A426F0000F0412C /* MFArtistPonso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFArtistPonso.h; sourceTree = "<group>"; };
+		74A355611A426F1300F0412C /* MFArtistPonso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFArtistPonso.m; sourceTree = "<group>"; };
+		74A355631A426F2A00F0412C /* MFAlbumPonso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlbumPonso.h; sourceTree = "<group>"; };
+		74A355641A426F4B00F0412C /* MFAlbumPonso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAlbumPonso.m; sourceTree = "<group>"; };
+		74A355661A426F5800F0412C /* MFImagePonso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFImagePonso.h; sourceTree = "<group>"; };
+		74A355671A426F6400F0412C /* MFImagePonso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFImagePonso.m; sourceTree = "<group>"; };
+		74A355691A426F6F00F0412C /* MFTrackPonso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTrackPonso.h; sourceTree = "<group>"; };
+		74A3556A1A426F7D00F0412C /* MFTrackPonso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTrackPonso.m; sourceTree = "<group>"; };
+		74A3556C1A42748600F0412C /* ArtistTestData_ArtistWithArtistId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArtistTestData_ArtistWithArtistId.json; sourceTree = "<group>"; };
+		74AC8D811A53684700FE7871 /* MFMemoryStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMemoryStack.h; sourceTree = "<group>"; };
+		74AC8D821A53685700FE7871 /* MFMemoryStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMemoryStack.m; sourceTree = "<group>"; };
+		74AC8D841A536CBC00FE7871 /* MFMemoryStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMemoryStackTests.m; sourceTree = "<group>"; };
+		74AC8D8C1A54A06900FE7871 /* MFMultipleAlbumsServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMultipleAlbumsServiceClient.h; sourceTree = "<group>"; };
+		74AC8D8D1A54A07700FE7871 /* MFMultipleAlbumsServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMultipleAlbumsServiceClient.m; sourceTree = "<group>"; };
+		74AC8D8F1A54A08500FE7871 /* MFMultipleAlbumsServiceClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMultipleAlbumsServiceClientTests.m; sourceTree = "<group>"; };
+		74AC8D981A55FC9D00FE7871 /* MFMultipleArtistsServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMultipleArtistsServiceClient.h; sourceTree = "<group>"; };
+		74AC8D991A55FCAD00FE7871 /* MFMultipleArtistsServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMultipleArtistsServiceClient.m; sourceTree = "<group>"; };
+		74AC8D9B1A55FCCA00FE7871 /* MFMultipleArtistsServiceClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMultipleArtistsServiceClientTests.m; sourceTree = "<group>"; };
+		74AC8D9F1A561B9100FE7871 /* MultipleAlbumsForTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MultipleAlbumsForTestData.json; path = ../MultipleAlbumsForTestData.json; sourceTree = "<group>"; };
+		74AC8DA11A5631E600FE7871 /* spotify_token_swap.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = spotify_token_swap.rb; sourceTree = "<group>"; };
+		74AD8ADD1A3FD7680060C365 /* MFSpotifySearchModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSpotifySearchModelTests.m; sourceTree = "<group>"; };
+		74AD8ADF1A3FE2450060C365 /* MFQueryByNameServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFQueryByNameServiceClient.m; sourceTree = "<group>"; };
+		74AD8AE11A3FE2560060C365 /* MFQueryByNameServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFQueryByNameServiceClient.h; sourceTree = "<group>"; };
+		74AD8AE21A3FE2690060C365 /* MFQueryByNameServiceClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFQueryByNameServiceClientTests.m; sourceTree = "<group>"; };
+		74AD8AE41A3FF88C0060C365 /* MFFavoritedSearchModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFFavoritedSearchModelTests.m; sourceTree = "<group>"; };
+		74B4B2581A64586300B174DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74BCB4F71A4C8ADC008844CC /* MFFileLocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFFileLocationProvider.h; sourceTree = "<group>"; };
+		74BCB4F81A4C8AEE008844CC /* MFFileLocationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFFileLocationProvider.m; sourceTree = "<group>"; };
+		74BF17BF1A48C52D00E5F7A7 /* MFPersistencePonsoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPersistencePonsoProvider.h; sourceTree = "<group>"; };
+		74BF17C01A48C55700E5F7A7 /* MFPersistencePonsoProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPersistencePonsoProvider.m; sourceTree = "<group>"; };
+		74BF17C21A48C57300E5F7A7 /* MFPersistingPonsoProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPersistingPonsoProviderTests.m; sourceTree = "<group>"; };
+		74BF17C41A48C6C200E5F7A7 /* MFImagePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFImagePersistence.h; sourceTree = "<group>"; };
+		74BF17C51A48C82E00E5F7A7 /* MFCoreDataImagePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCoreDataImagePersistence.h; sourceTree = "<group>"; };
+		74BF17C61A48C83C00E5F7A7 /* MFCoreDataImagePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataImagePersistence.m; sourceTree = "<group>"; };
+		74BF17C81A48D49700E5F7A7 /* MFCoreDataImagePersistenceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCoreDataImagePersistenceTests.m; sourceTree = "<group>"; };
+		74BF17CA1A49211F00E5F7A7 /* SerializedQueryArtistByName.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SerializedQueryArtistByName.json; sourceTree = "<group>"; };
+		74BF17CC1A49372D00E5F7A7 /* SerializedQueryAlbumByName.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SerializedQueryAlbumByName.json; sourceTree = "<group>"; };
+		74BF17CF1A49374A00E5F7A7 /* SerializedQueryTrackByName.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SerializedQueryTrackByName.json; sourceTree = "<group>"; };
+		74C8E6201A3931E600A55856 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74C8E6221A3931ED00A55856 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74C8E6261A39323A00A55856 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74C8E62A1A3933ED00A55856 /* ASYMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASYMacros.h; sourceTree = "<group>"; };
+		74E066821A3FB79E00AA1530 /* MFSpotifySearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSpotifySearchModel.m; sourceTree = "<group>"; };
+		74E066841A3FB7B400AA1530 /* MFFavoritedSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFFavoritedSearchModel.h; sourceTree = "<group>"; };
+		74E066851A3FB7C800AA1530 /* MFSpotifySearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSpotifySearchModel.h; sourceTree = "<group>"; };
+		74E066861A3FB7DD00AA1530 /* MFFavoritedSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFFavoritedSearchModel.m; sourceTree = "<group>"; };
+		74F0DA781A38E1E900F7922C /* MayFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F0DA7C1A38E1E900F7922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F0DA7D1A38E1E900F7922C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74F0DA7F1A38E1E900F7922C /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		74F0DA801A38E1E900F7922C /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		74F0DA821A38E1E900F7922C /* MFSpotifySearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFSpotifySearchViewController.h; sourceTree = "<group>"; };
+		74F0DA831A38E1E900F7922C /* MFSpotifySearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFSpotifySearchViewController.m; sourceTree = "<group>"; };
+		74F0DA851A38E1E900F7922C /* MFFavoritedSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFFavoritedSearchViewController.h; sourceTree = "<group>"; };
+		74F0DA861A38E1E900F7922C /* MFFavoritedSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFFavoritedSearchViewController.m; sourceTree = "<group>"; };
+		74F0DA941A38E1E900F7922C /* MayFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F0DA991A38E1E900F7922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F0DAA41A38E21800F7922C /* MayFly-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MayFly-Prefix.pch"; sourceTree = "<group>"; };
+		74F0DAA51A38E26900F7922C /* MayFlyTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MayFlyTests-Prefix.pch"; sourceTree = "<group>"; };
+		74FBF8221A8BF3BA005A60BD /* Stubble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stubble.framework; sourceTree = "<group>"; };
+		FC547285DFB0B44E8D52D77C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F0DA751A38E1E900F7922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74476D2C1A478EE400DB34A8 /* AVFoundation.framework in Frameworks */,
+				74C8E6291A39324A00A55856 /* Foundation.framework in Frameworks */,
+				74C8E6281A39324100A55856 /* UIKit.framework in Frameworks */,
+				74C8E6271A39323A00A55856 /* CoreGraphics.framework in Frameworks */,
+				74476D2A1A478C5900DB34A8 /* Spotify.framework in Frameworks */,
+				8E60AA97252AB47DBE2EFFB7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F0DA911A38E1E900F7922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FBF8231A8BF3BA005A60BD /* Stubble.framework in Frameworks */,
+				74C8E6231A3931ED00A55856 /* Foundation.framework in Frameworks */,
+				74C8E6211A3931E600A55856 /* UIKit.framework in Frameworks */,
+				8962DADD379ED1E824C2999E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743E6C1E1A40012700FA0240 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				743E6C221A4001AA00FA0240 /* MFBackgroundTaskHandler.h */,
+				743E6C1F1A40014900FA0240 /* MFBackgroundTaskHandler.m */,
+				743E6C251A40022F00FA0240 /* MFDispatcher.h */,
+				743E6C231A40022000FA0240 /* MFDispatcher.m */,
+				743E6C261A40024000FA0240 /* MFDispatcherTests.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		745420C91A38ECFA00AAF791 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				745420CA1A38EE6D00AAF791 /* AFHTTPRequestOperationManager+Timeout.h */,
+				745420CB1A38EE8400AAF791 /* AFHTTPrequestOperationManager+Timeout.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		745420CD1A38EEC400AAF791 /* Service Clients */ = {
+			isa = PBXGroup;
+			children = (
+				745420CE1A38EEDF00AAF791 /* MFServiceClientBase.h */,
+				745420CF1A38EEF700AAF791 /* MFServiceClientBase.m */,
+				745420D11A38EF0900AAF791 /* MFServiceClientBaseTests.m */,
+				747725681A510FB200477AED /* MFRelatedArtistsServiceClient.h */,
+				747725691A510FD300477AED /* MFRelatedArtistsServiceClient.m */,
+				747935511A39536100213BFF /* MFArtistServiceClient.h */,
+				74AC8D981A55FC9D00FE7871 /* MFMultipleArtistsServiceClient.h */,
+				74AC8D991A55FCAD00FE7871 /* MFMultipleArtistsServiceClient.m */,
+				74AC8D9B1A55FCCA00FE7871 /* MFMultipleArtistsServiceClientTests.m */,
+				74AC8D9F1A561B9100FE7871 /* MultipleAlbumsForTestData.json */,
+				747935521A39537000213BFF /* MFArtistServiceClient.m */,
+				747935541A39539A00213BFF /* MFArtistServiceClientTests.m */,
+				74AC8D8C1A54A06900FE7871 /* MFMultipleAlbumsServiceClient.h */,
+				74AC8D8D1A54A07700FE7871 /* MFMultipleAlbumsServiceClient.m */,
+				74AC8D8F1A54A08500FE7871 /* MFMultipleAlbumsServiceClientTests.m */,
+				7479354C1A394DBE00213BFF /* MFArtistAlbumsServiceClient.h */,
+				7479354D1A394DDB00213BFF /* MFArtistAlbumsServiceClient.m */,
+				7479354F1A39515500213BFF /* MFArtistAlbumsServiceClientTests.m */,
+				747935471A39496000213BFF /* MFAlbumTracksServiceClient.h */,
+				7483A5301A64C8C800B0AC05 /* LaunchScreen.xib */,
+				747935481A394A3E00213BFF /* MFAlbumTrackServiceClient.m */,
+				7479354A1A394BD300213BFF /* MFAlbumTracksServiceClientTests.m */,
+				74BF17CA1A49211F00E5F7A7 /* SerializedQueryArtistByName.json */,
+				74BF17CC1A49372D00E5F7A7 /* SerializedQueryAlbumByName.json */,
+				74BF17CF1A49374A00E5F7A7 /* SerializedQueryTrackByName.json */,
+				74AD8AE11A3FE2560060C365 /* MFQueryByNameServiceClient.h */,
+				74AD8ADF1A3FE2450060C365 /* MFQueryByNameServiceClient.m */,
+				74AD8AE21A3FE2690060C365 /* MFQueryByNameServiceClientTests.m */,
+				7465B89A1A3E7060009908EC /* MFServiceClientFactory.m */,
+				7465B89C1A3E7071009908EC /* MFServiceClientFactory.h */,
+				7465B89D1A3E7088009908EC /* MFServiceClientFactoryTests.m */,
+			);
+			name = "Service Clients";
+			sourceTree = "<group>";
+		};
+		745420D31A38EF7300AAF791 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				745420D41A38EF8100AAF791 /* MFEndpoint.h */,
+				745420D51A38EF8E00AAF791 /* MFEndpoint.m */,
+				745420D71A38EFA100AAF791 /* MFEndpointTests.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		745420D91A38EFDC00AAF791 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				745420DA1A38EFF600AAF791 /* MFEnvironment.h */,
+				745420DB1A38F00500AAF791 /* MFEnvironment.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		747935561A39579400213BFF /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				747935571A3957B200213BFF /* Search */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		747935571A3957B200213BFF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				747935581A39582900213BFF /* MFSearchCell.xib */,
+				749F45BD1A3CE26800180EE2 /* MFSearchCell.h */,
+				749F45BE1A3CE27700180EE2 /* MFSearchCell.m */,
+				745B0A381A3BED5600237435 /* MFScopedSearchView.h */,
+				745B0A391A3BED7000237435 /* MFScopedSearchView.m */,
+				743250A61A3BF69D00B5A2E6 /* MFSearchResult.h */,
+				743250A41A3BF69000B5A2E6 /* MFSearchResult.m */,
+				743250A91A3BF6C000B5A2E6 /* MFScopedSearchPresenter.h */,
+				743250A71A3BF6B000B5A2E6 /* MFScopedSearchPresenter.m */,
+				749F45BC1A3CD06A00180EE2 /* MFSearchPresenterProtected.h */,
+				743250AA1A3BF6DA00B5A2E6 /* MFScopedSearchPresenterTests.m */,
+				743250A31A3BF63F00B5A2E6 /* MFSearchViewInterface.h */,
+				743250AD1A3BF8F400B5A2E6 /* MFScopedSearchView.xib */,
+				743250AC1A3BF7F800B5A2E6 /* MFSearchModelInterface.h */,
+				743250AF1A3BFE6E00B5A2E6 /* MFSearchPresenter.m */,
+				743250B11A3BFE7D00B5A2E6 /* MFSearchPresenter.h */,
+				743250B21A3C00AC00B5A2E6 /* MFSearchPresenterTests.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		74A098C31A3D14DA00110B4B /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				74A098C41A3D14ED00110B4B /* Core Data */,
+				74A098ED1A3D1DFF00110B4B /* Generic */,
+			);
+			name = "Data Persistence";
+			sourceTree = "<group>";
+		};
+		74A098C41A3D14ED00110B4B /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				74A098C51A3D14F600110B4B /* Base */,
+				74A099261A3D4FAE00110B4B /* MFCoreDataArtistPersistence.h */,
+				74A099241A3D4F9600110B4B /* MFCoreDataArtistPersistence.m */,
+				74A099271A3D510600110B4B /* MFCoreDataArtistPersistenceTests.m */,
+				7465B8901A3E4B0E009908EC /* ArtistTestData_AlbumsWithArtistId.json */,
+				74A3556C1A42748600F0412C /* ArtistTestData_ArtistWithArtistId.json */,
+				7465B8921A3E4BDB009908EC /* AlbumTestData_TracksWithAlbumId.json */,
+				74A355591A426DE800F0412C /* SearchSpotifyByNameForAlbumTestData.json */,
+				74476D2F1A480F1100DB34A8 /* AlbumTestData_AlbumWithAlbumId.json */,
+				74A3555A1A426DE800F0412C /* SearchSpotifyByNameForArtistTestData.json */,
+				74A3555B1A426DE800F0412C /* SearchSpotifyByNameForTrackTestData.json */,
+				7481AD981A3DF6FE00FF622A /* MFCoreDataTrackPersistence.m */,
+				7481AD9A1A3DF70F00FF622A /* MFCoreDataTrackPersistence.h */,
+				7481AD9B1A3DF72300FF622A /* MFCoreDataTrackPersistenceTests.m */,
+				7465B8951A3E6547009908EC /* MFCoreDataPersistenceFactory.h */,
+				7465B8961A3E6559009908EC /* MFCoreDataPersistenceFactory.m */,
+				7465B8981A3E656A009908EC /* MFCoreDataPersistenceFactoryTests.m */,
+				74BF17C51A48C82E00E5F7A7 /* MFCoreDataImagePersistence.h */,
+				74BF17C61A48C83C00E5F7A7 /* MFCoreDataImagePersistence.m */,
+				74BF17C81A48D49700E5F7A7 /* MFCoreDataImagePersistenceTests.m */,
+				7465B88A1A3DF9EF009908EC /* MFCoreDataAlbumPersistence.h */,
+				7465B88B1A3DFA03009908EC /* MFCoreDataAlbumPersistence.m */,
+				7465B88D1A3DFA22009908EC /* MFCoreDataAlbumPersistenceTests.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		74A098C51A3D14F600110B4B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74A098C81A3D154000110B4B /* MFCoreDataInMemoryPSCProvider.h */,
+				74A098C61A3D151E00110B4B /* MFCoreDataInMemoryPSCProvider.m */,
+				74A098CB1A3D157D00110B4B /* MFCoreDataMOCProvider.h */,
+				74A098C91A3D156C00110B4B /* MFCoreDataMOCProvider.m */,
+				74A098CF1A3D15C100110B4B /* MFCoreDataPSCProvider.h */,
+				74A098CC1A3D159400110B4B /* MFCoreDataSqlitePSCProvider.m */,
+				74A098CE1A3D15A500110B4B /* MFCoreDataSqlitePSCProvider.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		74A098EA1A3D1C2300110B4B /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				74A098EB1A3D1C3A00110B4B /* Core Data */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		74A098EB1A3D1C3A00110B4B /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				74A098F41A3D26EA00110B4B /* Categories */,
+				74A098EC1A3D1C4400110B4B /* Generated */,
+				74A098F51A3D26FB00110B4B /* Generic */,
+				74A3555F1A426EB200F0412C /* Ponsos */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		74A098EC1A3D1C4400110B4B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				74A099181A3D469F00110B4B /* MFAlbumEntity.h */,
+				74A099191A3D469F00110B4B /* MFAlbumEntity.m */,
+				74A099211A3D46FA00110B4B /* MFTrackEntity.h */,
+				74A099221A3D46FA00110B4B /* MFTrackEntity.m */,
+				74A0991E1A3D46EB00110B4B /* MFImageEntity.h */,
+				74A0991F1A3D46EB00110B4B /* MFImageEntity.m */,
+				74A0991B1A3D46B100110B4B /* MFArtistEntity.h */,
+				74A0991C1A3D46B100110B4B /* MFArtistEntity.m */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		74A098ED1A3D1DFF00110B4B /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				74A098F11A3D24C900110B4B /* MFArtistPersistence.h */,
+				7465B88F1A3DFC64009908EC /* MFSearchScope.h */,
+				74A098F21A3D24E200110B4B /* MFTrackPersistence.h */,
+				7465B8941A3E64A1009908EC /* MFPersistenceFactory.h */,
+				74BF17C41A48C6C200E5F7A7 /* MFImagePersistence.h */,
+				74A098F31A3D24F700110B4B /* MFAlbumPersistence.h */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		74A098F41A3D26EA00110B4B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				74A098FA1A3D2B1400110B4B /* MFCoreDataObjectMapping.m */,
+				74A098FC1A3D2B2700110B4B /* MFCoreDataObjectMapping.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		74A098F51A3D26FB00110B4B /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				74A098F61A3D272700110B4B /* MFArtist.h */,
+				74A098F71A3D273700110B4B /* MFAlbum.h */,
+				74A098F91A3D279300110B4B /* MFImage.h */,
+				74A098F81A3D274400110B4B /* MFTrack.h */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		74A3555F1A426EB200F0412C /* Ponsos */ = {
+			isa = PBXGroup;
+			children = (
+				74A355601A426F0000F0412C /* MFArtistPonso.h */,
+				74A355611A426F1300F0412C /* MFArtistPonso.m */,
+				74A355631A426F2A00F0412C /* MFAlbumPonso.h */,
+				74A355641A426F4B00F0412C /* MFAlbumPonso.m */,
+				74A355661A426F5800F0412C /* MFImagePonso.h */,
+				74A355671A426F6400F0412C /* MFImagePonso.m */,
+				74A355691A426F6F00F0412C /* MFTrackPonso.h */,
+				74A3556A1A426F7D00F0412C /* MFTrackPonso.m */,
+			);
+			name = Ponsos;
+			sourceTree = "<group>";
+		};
+		74F0DA6F1A38E1E800F7922C = {
+			isa = PBXGroup;
+			children = (
+				74A098D91A3D1AE400110B4B /* Mayfly.xcdatamodel */,
+				74F0DA7A1A38E1E900F7922C /* MayFly */,
+				74F0DA971A38E1E900F7922C /* MayFlyTests */,
+				74F0DA791A38E1E900F7922C /* Products */,
+				77160A23748A3BA72690D425 /* Pods */,
+				EDF026A39956F73CACD84223 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74F0DA791A38E1E900F7922C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DA781A38E1E900F7922C /* MayFly.app */,
+				74F0DA941A38E1E900F7922C /* MayFlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F0DA7A1A38E1E900F7922C /* MayFly */ = {
+			isa = PBXGroup;
+			children = (
+				74AC8DA11A5631E600FE7871 /* spotify_token_swap.rb */,
+				743E6C1E1A40012700FA0240 /* Common */,
+				74A098EA1A3D1C2300110B4B /* Data Model */,
+				74A098C31A3D14DA00110B4B /* Data Persistence */,
+				745420D91A38EFDC00AAF791 /* Configuration */,
+				745420D31A38EF7300AAF791 /* Network */,
+				745420CD1A38EEC400AAF791 /* Service Clients */,
+				745420C91A38ECFA00AAF791 /* Categories */,
+				74F0DA7F1A38E1E900F7922C /* MFAppDelegate.h */,
+				74F0DA801A38E1E900F7922C /* MFAppDelegate.m */,
+				7481A82A1A4E535100ACE141 /* Main.storyboard */,
+				74F0DA821A38E1E900F7922C /* MFSpotifySearchViewController.h */,
+				74F0DA831A38E1E900F7922C /* MFSpotifySearchViewController.m */,
+				74F0DA851A38E1E900F7922C /* MFFavoritedSearchViewController.h */,
+				74BCB4F71A4C8ADC008844CC /* MFFileLocationProvider.h */,
+				74BCB4F81A4C8AEE008844CC /* MFFileLocationProvider.m */,
+				74F0DA861A38E1E900F7922C /* MFFavoritedSearchViewController.m */,
+				74F0DA7B1A38E1E900F7922C /* Supporting Files */,
+				747935561A39579400213BFF /* Templates */,
+				743E6C2A1A4005BA00FA0240 /* MFSearchModelBase.h */,
+				743E6C281A4005B100FA0240 /* MFSearchModelBase.m */,
+				74248F711A41229E00A8D74E /* MFSearchModelBaseTests.m */,
+				74AC8D811A53684700FE7871 /* MFMemoryStack.h */,
+				74AC8D821A53685700FE7871 /* MFMemoryStack.m */,
+				74AC8D841A536CBC00FE7871 /* MFMemoryStackTests.m */,
+				74E066851A3FB7C800AA1530 /* MFSpotifySearchModel.h */,
+				74E066821A3FB79E00AA1530 /* MFSpotifySearchModel.m */,
+				74AD8ADD1A3FD7680060C365 /* MFSpotifySearchModelTests.m */,
+				74BF17BF1A48C52D00E5F7A7 /* MFPersistencePonsoProvider.h */,
+				74BF17C01A48C55700E5F7A7 /* MFPersistencePonsoProvider.m */,
+				74BF17C21A48C57300E5F7A7 /* MFPersistingPonsoProviderTests.m */,
+				74E066841A3FB7B400AA1530 /* MFFavoritedSearchModel.h */,
+				74E066861A3FB7DD00AA1530 /* MFFavoritedSearchModel.m */,
+				74AD8AE41A3FF88C0060C365 /* MFFavoritedSearchModelTests.m */,
+				74B4B2581A64586300B174DD /* Images.xcassets */,
+				7483A52E1A64C76600B0AC05 /* AppIcon.png */,
+			);
+			path = MayFly;
+			sourceTree = "<group>";
+		};
+		74F0DA7B1A38E1E900F7922C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7423412E1A46C0A2001D57BC /* ui-icon-star-rating-filled.png */,
+				7423412F1A46C0A2001D57BC /* ui-icon-star-rating-filled@2x.png */,
+				742341301A46C0A2001D57BC /* ui-icon-star-rating-unfilled.png */,
+				742341311A46C0A2001D57BC /* ui-icon-star-rating-unfilled@2x.png */,
+				74F0DA7C1A38E1E900F7922C /* Info.plist */,
+				74F0DA7D1A38E1E900F7922C /* main.m */,
+				74F0DAA41A38E21800F7922C /* MayFly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74F0DA971A38E1E900F7922C /* MayFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DA981A38E1E900F7922C /* Supporting Files */,
+				7410EF991A392D310033D433 /* XCTestCase+ASYAsynchronousTesting.m */,
+				7410EF981A392D160033D433 /* XCTestCase+ASYAsynchronousTesting.h */,
+				7410EF9B1A392D7A0033D433 /* XCTestCase+MFTestUtils.h */,
+				7410EF9C1A392D900033D433 /* XCTestCase+MFTestUtils.m */,
+				7410EF9E1A392DA20033D433 /* MFKVOTester.h */,
+				7410EF9F1A392DB60033D433 /* MFKVOTester.m */,
+				74C8E62A1A3933ED00A55856 /* ASYMacros.h */,
+				74A0992C1A3D546700110B4B /* MFTestUtilities.h */,
+				74A0992A1A3D53C100110B4B /* MFTestUtilities.m */,
+			);
+			path = MayFlyTests;
+			sourceTree = "<group>";
+		};
+		74F0DA981A38E1E900F7922C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F0DA991A38E1E900F7922C /* Info.plist */,
+				74F0DAA51A38E26900F7922C /* MayFlyTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77160A23748A3BA72690D425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12A2F9DCC4CA2B476897B828 /* Pods.debug.xcconfig */,
+				FC547285DFB0B44E8D52D77C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF026A39956F73CACD84223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74FBF8221A8BF3BA005A60BD /* Stubble.framework */,
+				74476D2B1A478EE400DB34A8 /* AVFoundation.framework */,
+				74476D291A478C5900DB34A8 /* Spotify.framework */,
+				74C8E6261A39323A00A55856 /* CoreGraphics.framework */,
+				74C8E6221A3931ED00A55856 /* Foundation.framework */,
+				74C8E6201A3931E600A55856 /* UIKit.framework */,
+				56C5DD376171153C4ACA770E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F0DA771A38E1E900F7922C /* MayFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F0DA9E1A38E1E900F7922C /* Build configuration list for PBXNativeTarget "MayFly" */;
+			buildPhases = (
+				123047F81D644B69515C5DD2 /* Check Pods Manifest.lock */,
+				74F0DA741A38E1E900F7922C /* Sources */,
+				74F0DA751A38E1E900F7922C /* Frameworks */,
+				74F0DA761A38E1E900F7922C /* Resources */,
+				9EBE501879F9D4E2BF3AB49B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MayFly;
+			productName = MayFly;
+			productReference = 74F0DA781A38E1E900F7922C /* MayFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F0DA931A38E1E900F7922C /* MayFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F0DAA11A38E1E900F7922C /* Build configuration list for PBXNativeTarget "MayFlyTests" */;
+			buildPhases = (
+				86A7F4B94725F4283BFBC021 /* Check Pods Manifest.lock */,
+				74F0DA901A38E1E900F7922C /* Sources */,
+				74F0DA911A38E1E900F7922C /* Frameworks */,
+				74F0DA921A38E1E900F7922C /* Resources */,
+				408130E38977BE2DDF7C87FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F0DA961A38E1E900F7922C /* PBXTargetDependency */,
+			);
+			name = MayFlyTests;
+			productName = MayFlyTests;
+			productReference = 74F0DA941A38E1E900F7922C /* MayFlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F0DA701A38E1E800F7922C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "mrbrycefrazier at gmail dot com";
+				TargetAttributes = {
+					74F0DA771A38E1E900F7922C = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 557EJSX593;
+					};
+					74F0DA931A38E1E900F7922C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 74F0DA771A38E1E900F7922C;
+					};
+				};
+			};
+			buildConfigurationList = 74F0DA731A38E1E800F7922C /* Build configuration list for PBXProject "MayFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F0DA6F1A38E1E800F7922C;
+			productRefGroup = 74F0DA791A38E1E900F7922C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F0DA771A38E1E900F7922C /* MayFly */,
+				74F0DA931A38E1E900F7922C /* MayFlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F0DA761A38E1E900F7922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742341331A46C0A2001D57BC /* ui-icon-star-rating-filled@2x.png in Resources */,
+				74B4B2591A64586300B174DD /* Images.xcassets in Resources */,
+				742341341A46C0A2001D57BC /* ui-icon-star-rating-unfilled.png in Resources */,
+				743250AE1A3BF8F400B5A2E6 /* MFScopedSearchView.xib in Resources */,
+				7483A5311A64C8C800B0AC05 /* LaunchScreen.xib in Resources */,
+				7481A82B1A4E535100ACE141 /* Main.storyboard in Resources */,
+				747935591A39582900213BFF /* MFSearchCell.xib in Resources */,
+				742341351A46C0A2001D57BC /* ui-icon-star-rating-unfilled@2x.png in Resources */,
+				74AC8DA21A5631E600FE7871 /* spotify_token_swap.rb in Resources */,
+				742341321A46C0A2001D57BC /* ui-icon-star-rating-filled.png in Resources */,
+				7483A52F1A64C76600B0AC05 /* AppIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F0DA921A38E1E900F7922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7465B8931A3E4BDB009908EC /* AlbumTestData_TracksWithAlbumId.json in Resources */,
+				74BF17CE1A49373000E5F7A7 /* SerializedQueryArtistByName.json in Resources */,
+				74A3555D1A426DE800F0412C /* SearchSpotifyByNameForArtistTestData.json in Resources */,
+				74A3555C1A426DE800F0412C /* SearchSpotifyByNameForAlbumTestData.json in Resources */,
+				74AC8DA01A561B9100FE7871 /* MultipleAlbumsForTestData.json in Resources */,
+				74BF17D01A49374A00E5F7A7 /* SerializedQueryTrackByName.json in Resources */,
+				7465B8911A3E4B0E009908EC /* ArtistTestData_AlbumsWithArtistId.json in Resources */,
+				74A3555E1A426DE800F0412C /* SearchSpotifyByNameForTrackTestData.json in Resources */,
+				74A3556D1A42748600F0412C /* ArtistTestData_ArtistWithArtistId.json in Resources */,
+				74BF17CD1A49372D00E5F7A7 /* SerializedQueryAlbumByName.json in Resources */,
+				74476D301A480F1100DB34A8 /* AlbumTestData_AlbumWithAlbumId.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123047F81D644B69515C5DD2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		408130E38977BE2DDF7C87FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A7F4B94725F4283BFBC021 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBE501879F9D4E2BF3AB49B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F0DA741A38E1E900F7922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7481AD991A3DF6FE00FF622A /* MFCoreDataTrackPersistence.m in Sources */,
+				74A098CA1A3D156C00110B4B /* MFCoreDataMOCProvider.m in Sources */,
+				74A355681A426F6400F0412C /* MFImagePonso.m in Sources */,
+				74F0DA871A38E1E900F7922C /* MFFavoritedSearchViewController.m in Sources */,
+				74A098CD1A3D159400110B4B /* MFCoreDataSqlitePSCProvider.m in Sources */,
+				745B0A3A1A3BED7000237435 /* MFScopedSearchView.m in Sources */,
+				749F45BF1A3CE27700180EE2 /* MFSearchCell.m in Sources */,
+				745420D61A38EF8E00AAF791 /* MFEndpoint.m in Sources */,
+				74A098FB1A3D2B1400110B4B /* MFCoreDataObjectMapping.m in Sources */,
+				74E066871A3FB7DD00AA1530 /* MFFavoritedSearchModel.m in Sources */,
+				74A0991D1A3D46B100110B4B /* MFArtistEntity.m in Sources */,
+				743250B01A3BFE6E00B5A2E6 /* MFSearchPresenter.m in Sources */,
+				743E6C241A40022000FA0240 /* MFDispatcher.m in Sources */,
+				745420DC1A38F00500AAF791 /* MFEnvironment.m in Sources */,
+				7465B88C1A3DFA03009908EC /* MFCoreDataAlbumPersistence.m in Sources */,
+				74A099231A3D46FA00110B4B /* MFTrackEntity.m in Sources */,
+				74A098DA1A3D1AE400110B4B /* Mayfly.xcdatamodel in Sources */,
+				74BF17C11A48C55700E5F7A7 /* MFPersistencePonsoProvider.m in Sources */,
+				74E066831A3FB79E00AA1530 /* MFSpotifySearchModel.m in Sources */,
+				74AC8D831A53685700FE7871 /* MFMemoryStack.m in Sources */,
+				74BF17C71A48C83D00E5F7A7 /* MFCoreDataImagePersistence.m in Sources */,
+				74AC8D8E1A54A07700FE7871 /* MFMultipleAlbumsServiceClient.m in Sources */,
+				7465B8971A3E6559009908EC /* MFCoreDataPersistenceFactory.m in Sources */,
+				74F0DA811A38E1E900F7922C /* MFAppDelegate.m in Sources */,
+				74A0991A1A3D469F00110B4B /* MFAlbumEntity.m in Sources */,
+				74A099201A3D46EB00110B4B /* MFImageEntity.m in Sources */,
+				743250A51A3BF69000B5A2E6 /* MFSearchResult.m in Sources */,
+				745420D01A38EEF700AAF791 /* MFServiceClientBase.m in Sources */,
+				7465B89B1A3E7060009908EC /* MFServiceClientFactory.m in Sources */,
+				747935531A39537000213BFF /* MFArtistServiceClient.m in Sources */,
+				74F0DA841A38E1E900F7922C /* MFSpotifySearchViewController.m in Sources */,
+				74A098C71A3D151E00110B4B /* MFCoreDataInMemoryPSCProvider.m in Sources */,
+				743E6C291A4005B100FA0240 /* MFSearchModelBase.m in Sources */,
+				7477256A1A510FD300477AED /* MFRelatedArtistsServiceClient.m in Sources */,
+				74A355621A426F1300F0412C /* MFArtistPonso.m in Sources */,
+				7479354E1A394DDB00213BFF /* MFArtistAlbumsServiceClient.m in Sources */,
+				74A355651A426F4B00F0412C /* MFAlbumPonso.m in Sources */,
+				74A3556B1A426F7D00F0412C /* MFTrackPonso.m in Sources */,
+				747935491A394A3E00213BFF /* MFAlbumTrackServiceClient.m in Sources */,
+				743E6C201A40014900FA0240 /* MFBackgroundTaskHandler.m in Sources */,
+				74BCB4F91A4C8AEE008844CC /* MFFileLocationProvider.m in Sources */,
+				743250A81A3BF6B000B5A2E6 /* MFScopedSearchPresenter.m in Sources */,
+				745420CC1A38EE8400AAF791 /* AFHTTPrequestOperationManager+Timeout.m in Sources */,
+				74AD8AE01A3FE2450060C365 /* MFQueryByNameServiceClient.m in Sources */,
+				74A099251A3D4F9600110B4B /* MFCoreDataArtistPersistence.m in Sources */,
+				74AC8D9A1A55FCAD00FE7871 /* MFMultipleArtistsServiceClient.m in Sources */,
+				74F0DA7E1A38E1E900F7922C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F0DA901A38E1E900F7922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AD8AE31A3FE2690060C365 /* MFQueryByNameServiceClientTests.m in Sources */,
+				74A0992B1A3D53C100110B4B /* MFTestUtilities.m in Sources */,
+				74AD8ADE1A3FD7680060C365 /* MFSpotifySearchModelTests.m in Sources */,
+				7481AD9C1A3DF72300FF622A /* MFCoreDataTrackPersistenceTests.m in Sources */,
+				74AC8D851A536CBC00FE7871 /* MFMemoryStackTests.m in Sources */,
+				74AC8D901A54A08500FE7871 /* MFMultipleAlbumsServiceClientTests.m in Sources */,
+				743250AB1A3BF6DA00B5A2E6 /* MFScopedSearchPresenterTests.m in Sources */,
+				743250B31A3C00AC00B5A2E6 /* MFSearchPresenterTests.m in Sources */,
+				74AC8D9C1A55FCCA00FE7871 /* MFMultipleArtistsServiceClientTests.m in Sources */,
+				745420D21A38EF0900AAF791 /* MFServiceClientBaseTests.m in Sources */,
+				7479354B1A394BD300213BFF /* MFAlbumTracksServiceClientTests.m in Sources */,
+				7465B89E1A3E7088009908EC /* MFServiceClientFactoryTests.m in Sources */,
+				74AD8AE51A3FF88C0060C365 /* MFFavoritedSearchModelTests.m in Sources */,
+				7410EFA01A392DB60033D433 /* MFKVOTester.m in Sources */,
+				74248F721A41229E00A8D74E /* MFSearchModelBaseTests.m in Sources */,
+				7410EF9D1A392D900033D433 /* XCTestCase+MFTestUtils.m in Sources */,
+				747935551A39539A00213BFF /* MFArtistServiceClientTests.m in Sources */,
+				745420D81A38EFA100AAF791 /* MFEndpointTests.m in Sources */,
+				74A099281A3D510600110B4B /* MFCoreDataArtistPersistenceTests.m in Sources */,
+				74BF17C31A48C57300E5F7A7 /* MFPersistingPonsoProviderTests.m in Sources */,
+				7465B8991A3E656A009908EC /* MFCoreDataPersistenceFactoryTests.m in Sources */,
+				7410EF9A1A392D310033D433 /* XCTestCase+ASYAsynchronousTesting.m in Sources */,
+				747935501A39515500213BFF /* MFArtistAlbumsServiceClientTests.m in Sources */,
+				7465B88E1A3DFA22009908EC /* MFCoreDataAlbumPersistenceTests.m in Sources */,
+				743E6C271A40024000FA0240 /* MFDispatcherTests.m in Sources */,
+				74BF17C91A48D49700E5F7A7 /* MFCoreDataImagePersistenceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F0DA961A38E1E900F7922C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F0DA771A38E1E900F7922C /* MayFly */;
+			targetProxy = 74F0DA951A38E1E900F7922C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74F0DA9C1A38E1E900F7922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74F0DA9D1A38E1E900F7922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F0DA9F1A38E1E900F7922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A2F9DCC4CA2B476897B828 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayFly/MayFly-Prefix.pch";
+				INFOPLIST_FILE = MayFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-ESCObservable\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-OCMock\"",
+					"-l\"Pods-OHHTTPStubs\"",
+					"-l\"Pods-SSKeychain\"",
+					"-l\"Pods-Underscore.m\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74F0DAA01A38E1E900F7922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC547285DFB0B44E8D52D77C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayFly/MayFly-Prefix.pch";
+				INFOPLIST_FILE = MayFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-ESCObservable\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-OCMock\"",
+					"-l\"Pods-OHHTTPStubs\"",
+					"-l\"Pods-SSKeychain\"",
+					"-l\"Pods-Underscore.m\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74F0DAA21A38E1E900F7922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A2F9DCC4CA2B476897B828 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+					/Users/bfraz,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayFlyTests/MayFlyTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"Ma\"${PODS_ROOT}/Headers/FlurrySDK\"",
+					"\"${PODS_ROOT}/Headers/KIF\"",
+					"\"${PODS_ROOT}/Headers/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/MNetworking\"",
+					"\"${PODS_ROOT}/Headers/OCMock\"",
+					"\"${PODS_ROOT}/Headers/OHHTTPStubs\"",
+					"\"${PODS_ROOT}/Headers/SSKeychain\"",
+					"\"${PODS_ROOT}/Headers/Underscore.m\"",
+				);
+				INFOPLIST_FILE = MayFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					Foundation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayFly.app/MayFly";
+			};
+			name = Debug;
+		};
+		74F0DAA31A38E1E900F7922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC547285DFB0B44E8D52D77C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+					/Users/bfraz,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MayFlyTests/MayFlyTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"Ma\"${PODS_ROOT}/Headers/FlurrySDK\"",
+					"\"${PODS_ROOT}/Headers/KIF\"",
+					"\"${PODS_ROOT}/Headers/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/MNetworking\"",
+					"\"${PODS_ROOT}/Headers/OCMock\"",
+					"\"${PODS_ROOT}/Headers/OHHTTPStubs\"",
+					"\"${PODS_ROOT}/Headers/SSKeychain\"",
+					"\"${PODS_ROOT}/Headers/Underscore.m\"",
+				);
+				INFOPLIST_FILE = MayFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					Foundation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayFly.app/MayFly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F0DA731A38E1E800F7922C /* Build configuration list for PBXProject "MayFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F0DA9C1A38E1E900F7922C /* Debug */,
+				74F0DA9D1A38E1E900F7922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F0DA9E1A38E1E900F7922C /* Build configuration list for PBXNativeTarget "MayFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F0DA9F1A38E1E900F7922C /* Debug */,
+				74F0DAA01A38E1E900F7922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F0DAA11A38E1E900F7922C /* Build configuration list for PBXNativeTarget "MayFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F0DAA21A38E1E900F7922C /* Debug */,
+				74F0DAA31A38E1E900F7922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F0DA701A38E1E800F7922C /* Project object */;
+}

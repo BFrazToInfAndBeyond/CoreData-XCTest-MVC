@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MFScopedSearchView">
+            <connections>
+                <outlet property="baseView" destination="W2T-Jo-7Ac" id="GHj-gl-6wP"/>
+                <outlet property="searchBar" destination="etw-Iz-C3X" id="FFe-cn-BYH"/>
+                <outlet property="tableView" destination="DF7-Qv-ciZ" id="1I7-EU-YXr"/>
+                <outlet property="titleLabel" destination="cwk-Xj-rld" id="sIJ-yu-UCP"/>
+                <outlet property="toolBar" destination="YdZ-JV-PkB" id="4Oe-5x-6ny"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="W2T-Jo-7Ac">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="etw-Iz-C3X">
+                    <rect key="frame" x="0.0" y="89" width="320" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="DF7-Qv-ciZ">
+                    <rect key="frame" x="0.0" y="133" width="320" height="435"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdZ-JV-PkB">
+                    <rect key="frame" x="0.0" y="45" width="320" height="44"/>
+                    <items/>
+                </toolbar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwk-Xj-rld">
+                    <rect key="frame" x="0.0" y="45" width="321" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="etw-Iz-C3X" firstAttribute="top" secondItem="YdZ-JV-PkB" secondAttribute="bottom" id="0VO-Wz-Y6L"/>
+                <constraint firstAttribute="trailing" secondItem="DF7-Qv-ciZ" secondAttribute="trailing" id="4Zz-ma-VBr"/>
+                <constraint firstItem="DF7-Qv-ciZ" firstAttribute="leading" secondItem="W2T-Jo-7Ac" secondAttribute="leading" id="6Zf-IJ-A9e"/>
+                <constraint firstItem="YdZ-JV-PkB" firstAttribute="leading" secondItem="W2T-Jo-7Ac" secondAttribute="leading" id="7bm-R9-ckc"/>
+                <constraint firstAttribute="bottom" secondItem="DF7-Qv-ciZ" secondAttribute="bottom" id="BXA-aS-0lw"/>
+                <constraint firstItem="YdZ-JV-PkB" firstAttribute="top" secondItem="W2T-Jo-7Ac" secondAttribute="top" constant="45" id="Hi4-9T-Qmt"/>
+                <constraint firstItem="DF7-Qv-ciZ" firstAttribute="top" secondItem="etw-Iz-C3X" secondAttribute="bottom" id="NpA-KP-6w8"/>
+                <constraint firstItem="etw-Iz-C3X" firstAttribute="leading" secondItem="W2T-Jo-7Ac" secondAttribute="leading" id="g31-Gs-HoF"/>
+                <constraint firstItem="etw-Iz-C3X" firstAttribute="top" secondItem="YdZ-JV-PkB" secondAttribute="bottom" id="gBt-zj-Bmg"/>
+                <constraint firstItem="DF7-Qv-ciZ" firstAttribute="top" secondItem="etw-Iz-C3X" secondAttribute="bottom" id="gQR-tW-mav"/>
+                <constraint firstAttribute="trailing" secondItem="YdZ-JV-PkB" secondAttribute="trailing" id="hSx-e9-XQq"/>
+                <constraint firstAttribute="trailing" secondItem="etw-Iz-C3X" secondAttribute="trailing" id="pUe-IY-GZa"/>
+            </constraints>
+            <point key="canvasLocation" x="377" y="278"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
